@@ -6,11 +6,11 @@ use std.env.all;                -- For hierarchical/external signals
 use std.textio.all;             -- For basic I/O
 
 
-entity tb_shifter is
+entity tb_controlLogic is
   generic(gCLK_HPER   : time := 10 ns);   -- Generic for half of the clock cycle period
-end tb_shifter;
+end tb_controlLogic;
 
-architecture mixed of tb_shifter is
+architecture mixed of tb_controlLogic is
 
 -- Define the total clock period time
 constant cCLK_PER  : time := gCLK_HPER * 2;
@@ -18,11 +18,14 @@ constant cCLK_PER  : time := gCLK_HPER * 2;
 -- We will be instantiating our design under test (DUT), so we need to specify its
 -- component interface.
 -- TODO: change component declaration as needed.
-component shifter is
-  port(i_signed, i_dir            : in std_logic;
-       i_D	    	              : in std_logic_vector(31 downto 0);
-       i_shamt                    : in std_logic_vector(4 downto 0);
-       o_O                        : out std_logic_vector(31 downto 0));
+component controlLogic is
+port( i_D          : in std_logic_vector(27 downto 0);
+      i_ALUSrc     : out std_logic;
+      i_ALUControl : out std_logic_vector(3 downto 0);
+      i_memToReg   : out std_logic;
+      i_memWrite   : out std_logic;
+      i_regWrite   : out std_logic;
+      i_regDst     : out std_logic);
 end component;
 
 -- Create signals for all of the inputs and outputs of the file that you are testing
@@ -30,11 +33,14 @@ end component;
 signal CLK, reset : std_logic := '0';
 
 -- TODO: change input and output signals as needed.
-signal s_signed : std_logic := '0';
-signal s_dir    : std_logic := '0';
-signal s_D      : std_logic_vector(31 downto 0) := X"00000000";
-signal s_shamt  : std_logic_vector(4 downto 0) := "00000";
-signal s_o      : std_logic_vector(31 downto 0);
+signal s_D           : std_logic_vector(31 downto 0) := X"00000000";
+signal s_ALUSrc      : std_logic := '0';
+signal s_ALUControl  : std_logic_vector(3 downto 0) := "0000";
+signal s_memToReg    : std_logic := '0';
+signal s_memWrite    : std_logic := '0';
+signal s_regWrite    : std_logic := '0';
+signal s_regDst      : std_logic := '0';
+
 
 begin
 
@@ -42,13 +48,15 @@ begin
   -- input or output. Note that DUT0 is just the name of the instance that can be seen 
   -- during simulation. What follows DUT0 is the entity name that will be used to find
   -- the appropriate library component during simulation loading.
-  DUT0: shifter
-  port map(
-            i_signed => s_signed,
-            i_dir    => s_dir,
-            i_D      => s_D,
-            i_shamt  => s_shamt,
-            o_O      => s_O);
+  DUT0: controlLogic
+  port map(i_D          => s_D,
+           i_ALUSrc     => s_ALUSrc,
+           i_ALUControl => s_ALUControl,
+           i_memToReg   => s_memToReg,
+           i_memWrite   => s_memWrite,
+           i_regWrite   => s_regWrite,
+           i_regDst     => s_regDst);
+            
   --You can also do the above port map in one line using the below format: http://www.ics.uci.edu/~jmoorkan/vhdlref/compinst.html
 
   P_TEST_CASES: process
@@ -57,25 +65,9 @@ begin
 
     -- Test case 1:
     
-    s_D <= X"00000001";
-    s_dir <= '0';
-    s_signed <= '0';
-    s_shamt <= "00011";
+    
 
-    wait for cCLK_PER;
-
-    s_D <= X"FFFF0000";
-    s_dir <= '1';
-    s_signed <= '1';
-    s_shamt <= "01000";
-
-    wait for cCLK_PER;
-
-    s_D <= X"FFFF0000";
-    s_dir <= '1';
-    s_signed <= '0';
-    s_shamt <= "01001";
-
+    
     wait for cCLK_PER;
   end process;
 end mixed;
