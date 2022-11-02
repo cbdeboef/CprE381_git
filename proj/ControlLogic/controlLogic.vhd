@@ -1,4 +1,4 @@
-ibrary IEEE;
+library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
@@ -11,8 +11,12 @@ entity controlLogic is
 
 
   port(i_D : in std_logic_vector(31 downto 0);
-       ALSSrc     : out std_logic;
-       ALUControl : out std_logic_vector(3 downto 0);
+       ALUSrc     : out std_logic;
+       ALUControl : out std_logic_vector(4 downto 0);
+       -- bit 0: 
+       -- bit 1: 
+       -- bit 2: 
+       -- bit 3: 
        memToReg   : out std_logic;
        memWrite   : out std_logic;
        regWrite   : out std_logic;
@@ -22,8 +26,145 @@ end controlLogic;
 
 architecture dataflow of controlLogic is
 
+signal outputData : std_logic_vector(9 downto 0);
+signal input      : std_logic_vector(5 downto 0);
+
 begin
 
+  input <= i_D(31 downto 26);
 
+  p_CASE : process
+    begin
+    
+    case input is
+      -- addi
+      when "001000" =>
+        outputData <= "1000000010";
 
-end controlLogic;
+      -- andi
+      when "001100" =>
+        outputData <= "1000010010";
+
+      -- addiu
+      when "001001" =>
+        outputData <= "1000100010";
+
+      -- beq
+      when "000100" =>
+        outputData <= "1000110000";
+
+      -- bne
+      when "000101" =>
+        outputData <= "1001000000";
+
+      -- lui
+      when "001111" =>
+        outputData <= "1001010010";
+
+      -- lw
+      when "100011" =>
+        outputData <= "1001101010";
+
+      --xori
+      when "001110" =>
+        outputData <= "1001110010";
+
+      -- ori
+      when "001101" =>
+        outputData <= "1010000010";
+
+      -- slti
+      when "001010" =>
+        outputData <= "1010010000";
+
+      -- sw
+      when "101011" =>
+        outputData <= "1010100100";
+
+      -- repl.qb
+      when "111111" =>
+        outputData <= "1010110010";
+
+      -- j
+      when "000010" =>
+        outputData <= "0011000000";
+
+      -- jal
+      when "000011" =>
+        outputData <= "0011010000";
+      
+      when others =>
+        outputData <= "0000000000";
+
+    end case;
+
+    if (i_D(31 downto 26) = "000000") then
+      case i_D(5 downto 0) is
+
+      -- add
+      when "000000" =>
+        outputData <= "0011100011";
+
+      -- addu
+      when "000001" =>
+        outputData <= "0011110011";
+
+      -- and
+      when "000011" =>
+        outputData <= "1100000011";
+
+      -- not
+      when "000100" =>
+        outputData <= "0100010011";
+
+      -- nor
+      when "000101" =>
+        outputData <= "0100100011";
+
+      -- xor
+      when "000110" =>
+        outputData <= "0100110011";
+      
+      -- or
+      when "000111" =>
+        outputData <= "0101000011";
+
+      -- slt
+      when "001000" =>
+        outputData <= "0101010011";
+
+      -- sll
+      when "001001" =>
+        outputData <= "0101100011";
+
+      -- srl
+      when "001010" =>
+        outputData <= "0101110011";
+
+      -- sra
+      when "001011" =>
+        outputData <= "0101110011";
+
+      -- sub
+      when "001100" =>
+        outputData <= "0110010011";
+
+      -- jr
+      when "001101" =>
+        outputData <= "0110100001";
+
+      when others =>
+        outputData <= "0000000000";
+      
+      end case;
+    end if;
+  end process;
+
+  ALUSrc     <= outputData(9);
+  ALUControl <= outputData(8 downto 4);
+  memToReg   <= outputData(3);
+  memWrite   <= outputData(2);
+  regWrite   <= outputData(1);
+  regDst     <= outputData(0);
+
+end dataflow;

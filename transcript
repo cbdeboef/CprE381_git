@@ -12,1834 +12,257 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vlib work
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
 # QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:31:34 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
+# Start time: 17:25:53 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
 # -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): near "o_O": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): VHDL Compiler exiting
-# End time: 14:31:34 on Oct 31,2022, Elapsed time: 0:00:00
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(1): near "ibrary": syntax error
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(1): VHDL Compiler exiting
+# End time: 17:25:53 on Nov 02,2022, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
 # QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:32:28 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): near "o_O": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): near "o_O": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): VHDL Compiler exiting
-# End time: 14:32:28 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:33:43 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): near "o_O": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): VHDL Compiler exiting
-# End time: 14:33:43 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:35:47 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): near "o_O": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): VHDL Compiler exiting
-# End time: 14:35:47 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:36:12 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): near "o_O": (vcom-1576) expecting GENERATE or THEN or USE.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): VHDL Compiler exiting
-# End time: 14:36:12 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:39:33 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(51): near "o_O": (vcom-1576) expecting ',' or ')'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(54): Statement cannot be labeled.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(63): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(70): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(77): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(36): (vcom-1272) Length of expected is 5; length of actual is 4.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(81): VHDL Compiler exiting
-# End time: 14:39:33 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 1
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:40:03 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(63): Integer literal 3 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(70): Integer literal 8 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(77): Integer literal 9 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(36): (vcom-1272) Length of expected is 5; length of actual is 4.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(81): VHDL Compiler exiting
-# End time: 14:40:04 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 4, Warnings: 1
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:42:23 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(23): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): (vcom-1136) Unknown identifier "shift_left".
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1136) Unknown identifier "shift_right".
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1590) Bad expression in right operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): near ";": (vcom-1576) expecting THEN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1136) Unknown identifier "shift_left".
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): near "if": (vcom-1576) expecting ';'.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): VHDL Compiler exiting
-# End time: 14:42:24 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 15, Warnings: 1
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:43:05 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in right operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): near ";": (vcom-1576) expecting THEN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): near "if": (vcom-1576) expecting ';'.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): VHDL Compiler exiting
-# End time: 14:43:05 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 15, Warnings: 1
-clear
-# [3;J[H[2J
-clear
-# [3;J[H[2J
-clc
-# invalid command name "clc"
-clean
-ls
-# Documents
-# proj
-# readMeProject1.txt
-# TeamSubmissionDocuments
-# Toolflow
-# transcript
-# work
-help
-# Type help <command> to get information on that command, or try one of the following:
-#   commands  List all available commands and topics.
-#   Debugging Lists debugging commands.
-#   Execution Information on controlling execution of the simulation.
-#   Tcl       Information on Tcl commands.
-#   Tk        Information on Tk commands.
-#   incrTcl   Information on incrTcl commands.
-# 
-help clear
-# No help for clear available.
-clear
-# [3;J[H[2J
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:44:15 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in right operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): near ";": (vcom-1576) expecting THEN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): near "if": (vcom-1576) expecting ';'.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): VHDL Compiler exiting
-# End time: 14:44:15 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 15, Warnings: 1
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:47:29 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
+# Start time: 17:26:04 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in right operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): near ";": (vcom-1576) expecting THEN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): near "if": (vcom-1576) expecting ';'.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): VHDL Compiler exiting
-# End time: 14:47:29 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 15, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:48:06 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in right operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:48:06 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 13, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:48:17 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in right operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:48:17 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 13, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:48:26 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in left operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1590) Bad expression in right operand of infix expression '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:48:26 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 13, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:50:18 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:50:18 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:50:28 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:50:28 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:52:06 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:52:06 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:52:16 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:52:16 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:53:29 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 14:53:29 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 14:57:54 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator 'srl'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "srl" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for infix operator 'sra'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving infix expression "sra" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 14:57:54 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 12, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:00:10 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:00:10 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:04:35 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:04:35 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 10, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:05:46 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:05:46 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 10, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:06:06 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Cannot resolve expression type of infix expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator '&'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "&" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:06:06 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-# Modified modelsim.ini
-# Modified modelsim.ini
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:06:30 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Cannot resolve expression type of infix expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1583) Illegal type conversion from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:06:30 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:06:42 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:06:42 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 10, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:10:07 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:10:07 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 10, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:10:39 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:10:39 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 8, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:12:56 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1581) No feasible entries for infix operator 'sll'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): Type error resolving infix expression "sll" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(35): VHDL Compiler exiting
-# End time: 15:12:57 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 8, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:13:21 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:13:21 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:14:00 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:14:00 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:16:19 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:16:19 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:16:31 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:16:31 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:17:13 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:17:13 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:17:45 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:17:45 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:19:50 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:19:50 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:21:43 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(24): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(25): (vcom-1600) No feasible entries for subprogram "SHIFT_LEFT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1207)
-#       (explicit) NUMERIC_STD.SHIFT_LEFT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1225)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(29): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1600) No feasible entries for subprogram "SHIFT_RIGHT".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1216)
-#       (explicit) NUMERIC_STD.SHIFT_RIGHT[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1234)
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): VHDL Compiler exiting
-# End time: 15:21:43 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:34:03 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): near "=": (vcom-1576) expecting ':'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): near "=": (vcom-1576) expecting ':'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1136) Unknown identifier "shift_concat".
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "&" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:34:04 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 11, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:34:22 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): near "<=": (vcom-1576) expecting ':'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): near "<=": (vcom-1576) expecting ':'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1136) Unknown identifier "shift_concat".
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "&" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:34:22 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:34:55 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "-" as type std.STANDARD.NATURAL.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:34:56 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:35:20 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "-" as type std.STANDARD.NATURAL.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:35:20 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:35:53 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "-" as type std.STANDARD.NATURAL.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:35:53 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:37:53 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1581) No feasible entries for infix operator '-'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:37:53 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 15, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:39:37 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1600) No feasible entries for subprogram "TO_UNSIGNED".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1464)
-#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1478)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1600) No feasible entries for subprogram "TO_UNSIGNED".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1464)
-#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1478)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1600) No feasible entries for subprogram "TO_UNSIGNED".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1464)
-#       (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, UNRESOLVED_UNSIGNED return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1478)
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error in range expression.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:39:37 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 15, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:41:35 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): (vcom-1581) No feasible entries for prefix operator '??'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(34): Type error resolving prefix expression "??" as type std.STANDARD.BOOLEAN.
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "i_shamt".
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "i_shamt".
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:41:35 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 2
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:42:42 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): near "&": syntax error
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "i_shamt".
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "i_shamt".
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:42:42 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 2
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:44:14 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(21): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "i_shamt".
-# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(22): (vcom-1013) Subtype of "ieee.std_logic_1164.STD_LOGIC_VECTOR" depends on value of signal "i_shamt".
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:44:15 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 2
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:46:25 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:46:26 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:48:01 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:48:01 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:48:24 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:48:24 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# Modified modelsim.ini
-# Modified modelsim.ini
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:49:14 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:49:14 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# Modified modelsim.ini
-# Modified modelsim.ini
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:50:39 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(32): Illegal concurrent statement.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 15:50:39 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 15:57:28 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): Illegal concurrent statement.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(36): VHDL Compiler exiting
-# End time: 15:57:28 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:02:01 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:02:01 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Optimization canceled
-vsim work.tb_shifter -voptargs=+acc
-# vsim work.tb_shifter -voptargs="+acc" 
-# Start time: 16:02:47 on Oct 31,2022
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading std.env(body)
-# Loading work.tb_shifter(mixed)#1
-# Loading ieee.numeric_std(body)
-# Loading work.shifter(dataflow)#1
-add wave -position insertpoint  \
-sim:/tb_shifter/s_D \
-sim:/tb_shifter/s_dir \
-sim:/tb_shifter/s_o \
-sim:/tb_shifter/s_shamt \
-sim:/tb_shifter/s_signed
-run
-# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 33 (0 to 32).
-#    Time: 0 ns  Iteration: 0  Process: /tb_shifter/DUT0/line__27 File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
-# Fatal error in Architecture dataflow at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd line 27
-# 
-# HDL call sequence:
-# Stopped at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd 27 Architecture dataflow
-# 
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:12:34 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:12:34 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading std.env(body)
-# Loading work.tb_shifter(mixed)#1
-# Loading ieee.numeric_std(body)
-# Loading work.shifter(dataflow)#1
-run
-# Causality operation skipped due to absence of debug database file
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:16:29 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:16:29 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-run
-run
-# Break in Architecture dataflow at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd line 27
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:20:20 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:20:21 on Oct 31,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading std.env(body)
-# Loading work.tb_shifter(mixed)#1
-# Loading ieee.numeric_std(body)
-# Loading work.shifter(dataflow)#1
-run
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:21:07 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:21:07 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading std.env(body)
-# Loading work.tb_shifter(mixed)#1
-# Loading ieee.numeric_std(body)
-# Loading work.shifter(dataflow)#1
-run
-quit -sim
-# End time: 16:21:47 on Oct 31,2022, Elapsed time: 0:19:00
-# Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:22:49 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:22:49 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.tb_shifter
-# vsim -voptargs="+acc" work.tb_shifter 
-# Start time: 16:23:03 on Oct 31,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading std.env(body)
-# Loading work.tb_shifter(mixed)#1
-# Loading ieee.numeric_std(body)
-# Loading work.shifter(dataflow)#1
-add wave -position insertpoint  \
-sim:/tb_shifter/s_D \
-sim:/tb_shifter/s_dir \
-sim:/tb_shifter/s_o
-run
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:26:17 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): near "and": (vcom-1576) expecting ';' or ','.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(35): VHDL Compiler exiting
-# End time: 16:26:17 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:27:33 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): near "and": (vcom-1576) expecting ';' or ','.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): VHDL Compiler exiting
-# End time: 16:27:33 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:29:53 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "<=" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): near "and": (vcom-1576) expecting ';' or ','.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 16:29:53 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:30:14 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(31): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): (vcom-1590) Bad expression in left operand of infix expression 'and'.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(33): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
-# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(26): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 16:30:14 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:30:58 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1563) Choice in ordinary selected signal assignment must be locally static.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): near "=": (vcom-1576) expecting ';' or ','.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 16:30:58 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:31:55 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1563) Choice in ordinary selected signal assignment must be locally static.
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): near "=": (vcom-1576) expecting ';' or ','.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 16:31:55 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:32:28 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): Type error resolving infix expression "=" as type ieee.std_logic_1164.STD_ULOGIC.
-# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(28): (vcom-1563) Choice in ordinary selected signal assignment must be locally static.
-# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(26): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 16:32:28 on Oct 31,2022, Elapsed time: 0:00:00
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(30): near "signal": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(33): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(83): near "outputData": (vcom-1576) expecting => or '|' or '!'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(89): VHDL Compiler exiting
+# End time: 17:26:04 on Nov 02,2022, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
 # QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:33:02 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
+# Start time: 17:27:31 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:33:02 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading std.env(body)
-# Loading work.tb_shifter(mixed)#1
-# Loading ieee.numeric_std(body)
-# Loading work.shifter(dataflow)#1
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-run
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(30): near "signal": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(33): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(83): near "outputData": (vcom-1576) expecting => or '|' or '!'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(89): VHDL Compiler exiting
+# End time: 17:27:31 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
 # QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:40:24 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
+# Start time: 17:27:38 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(27): Illegal concurrent statement.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(37): VHDL Compiler exiting
-# End time: 16:40:24 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(30): near "signal": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(33): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(83): near "outputData": (vcom-1576) expecting => or '|' or '!'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(89): VHDL Compiler exiting
+# End time: 17:27:39 on Nov 02,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
 # QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:43:53 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
+# Start time: 17:28:40 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(30): near ",": (vcom-1576) expecting ';'.
-# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(36): VHDL Compiler exiting
-# End time: 16:43:53 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(30): near "signal": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(33): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(83): near "outputData": (vcom-1576) expecting => or '|' or '!'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(89): VHDL Compiler exiting
+# End time: 17:28:40 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
 # QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
-# Start time: 16:44:22 on Oct 31,2022
-# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd 
+# Start time: 17:28:57 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture dataflow of shifter
-# -- Loading package std_logic_textio
-# -- Loading package ENV
-# -- Compiling entity tb_shifter
-# -- Compiling architecture mixed of tb_shifter
-# End time: 16:44:22 on Oct 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading std.env(body)
-# Loading work.tb_shifter(mixed)#1
-# Loading ieee.numeric_std(body)
-# Loading work.shifter(dataflow)#1
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-add wave -position insertpoint  \
-sim:/tb_shifter/s_shamt
-add wave -position insertpoint  \
-sim:/tb_shifter/s_signed
-run
-# Break key hit
-# Break key hit
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(35): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(85): near "outputData": (vcom-1576) expecting => or '|' or '!'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(91): VHDL Compiler exiting
+# End time: 17:28:57 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:29:23 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(35): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(85): near "outputData": (vcom-1576) expecting => or '|' or '!'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(91): VHDL Compiler exiting
+# End time: 17:29:23 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:31:19 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(35): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(85): near "outputData": (vcom-1576) expecting => or '|' or '!'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(91): VHDL Compiler exiting
+# End time: 17:31:19 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:36:44 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(35): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(152): near "process": (vcom-1576) expecting ';'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(152): VHDL Compiler exiting
+# End time: 17:36:45 on Nov 02,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# Modified modelsim.ini
+# Modified modelsim.ini
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:39:34 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(34): Illegal target for signal assignment.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(34): (vcom-1136) Unknown identifier "intput".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(37): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(154): near "process": (vcom-1576) expecting ';'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(154): VHDL Compiler exiting
+# End time: 17:39:34 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:39:52 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(37): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(154): near "process": (vcom-1576) expecting ';'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(154): VHDL Compiler exiting
+# End time: 17:39:52 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:40:36 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(37): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(153): near "process": (vcom-1576) expecting ';'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(153): VHDL Compiler exiting
+# End time: 17:40:36 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:42:46 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(37): near "case": syntax error
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(159): near "process": (vcom-1576) expecting ';'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(159): VHDL Compiler exiting
+# End time: 17:42:46 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:46:15 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(161): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(163): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(170): Labels do not match: 'dataflow' and 'controlLogic'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(170): VHDL Compiler exiting
+# End time: 17:46:16 on Nov 02,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:47:22 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(161): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(170): Labels do not match: 'dataflow' and 'controlLogic'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(170): VHDL Compiler exiting
+# End time: 17:47:22 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:47:39 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(161): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 17:47:39 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:55:40 on Nov 02,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(161): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 17:55:40 on Nov 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
