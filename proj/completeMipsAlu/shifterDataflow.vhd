@@ -24,7 +24,7 @@ architecture dataflow of shifter is
 
 begin
      -- Shift Left
-    o_O <= i_D(31-to_integer(unsigned(i_shamt)) downto 0) & shift_concat(to_integer(unsigned(i_shamt))-1 downto 0) when (i_dir = '0') else
+     o_O <= i_D(31-to_integer(unsigned(i_shamt)) downto 0) & shift_concat(to_integer(unsigned(i_shamt))-1 downto 0) when (i_dir = '0') else
     
      -- Shift Right unsigned
            shift_concat(to_integer(unsigned(i_shamt))-1 downto 0) & i_D(31 downto to_integer(unsigned(i_shamt))) when i_dir = '1' and (i_signed = '0' or i_D(31) = '0') else

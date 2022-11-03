@@ -8,6 +8,15 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11e MIXED_VERSIONS
 13
 !s112 1.1
@@ -17,145 +26,256 @@ R0
 cModel Technology
 Z1 d/home/cbdeboef/CprE381_git
 T_opt
-!s110 1667252667
-VWSi5d?XRQeA;G^a_Qa^0h0
-04 10 5 work tb_shifter mixed 1
-=4-6805ca946ace-636041bb-43259-2521
+!s110 1667488433
+VUZ:3QO0;?7g;O8Y9X`>na2
+Z2 04 13 5 work tb_fetchlogic mixed 1
+=2-0050569bed18-6363dab1-62716-e80
 R0
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work +acc
-tCvgOpt 0
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
 n@_opt
-OL;O;2022.2;75
+Z6 OL;O;2022.2;75
+T_opt1
+!s110 1667486785
+VPgEC4B4IhD7J=@5Mn[XYg1
+R2
+=1-0050569bed18-6363d441-518da-2f6
+R0
+R3
+o-quiet -auto_acc_if_foreign -work work
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1667486729
+V=S0?ikaCAe72;=`3T2HEn2
+04 10 8 work fetchlogic dataflow 1
+=3-0050569bed18-6363d408-c5969-79fb
+R0
+R3
+R4
+R5
+n@_opt2
+R6
 R1
 Econtrollogic
-Z2 w1667429298
-Z3 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
-Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
-Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+Z7 w1667429298
+Z8 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z9 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z10 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
 !i122 85
 R1
-Z6 8/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
-Z7 F/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+Z11 8/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+Z12 F/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
 l0
 L6 1
 V9C=B9?b_DX;B=dLWcTL1b1
 !s100 H;C4oL4TAhOO5i]=MjCc>1
-Z8 OL;C;2022.2;75
+Z13 OL;C;2022.2;75
 33
-Z9 !s110 1667429740
+Z14 !s110 1667429740
 !i10b 1
-Z10 !s108 1667429740.000000
-Z11 !s90 -reportprogress|300|-work|work|/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd|
-Z12 !s107 /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd|
+Z15 !s108 1667429740.000000
+Z16 !s90 -reportprogress|300|-work|work|/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd|
+Z17 !s107 /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd|
 !i113 0
-Z13 o-work work
-Z14 tExplicit 1 NoCoverage 1 CvgOpt 0
+Z18 o-work work
+Z19 tExplicit 1 NoCoverage 1 CvgOpt 0
 Adataflow
-R3
-R4
-R5
-Z15 DEx4 work 12 controllogic 0 22 9C=B9?b_DX;B=dLWcTL1b1
+R8
+R9
+R10
+DEx4 work 12 controllogic 0 22 9C=B9?b_DX;B=dLWcTL1b1
 !i122 85
 l32
-Z16 L27 144
-Z17 V8]BPl:YAg:aOk0E3YA:0L0
-Z18 !s100 X0jaJgGdCMnQAGRXn0cdm0
-R8
-33
-R9
-!i10b 1
-R10
-R11
-R12
-!i113 0
+L27 144
+V8]BPl:YAg:aOk0E3YA:0L0
+!s100 X0jaJgGdCMnQAGRXn0cdm0
 R13
+33
 R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Efetchlogic
+Z20 w1667488318
+R8
+R9
+R10
+!i122 120
+R1
+Z21 8/home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd
+Z22 F/home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd
+l0
+L6 1
+V5jahK;mF8Ogce8061ePJ41
+!s100 g06Re13JRF8c10aShFDc62
+R13
+33
+Z23 !s110 1667488427
+!i10b 1
+Z24 !s108 1667488427.000000
+Z25 !s90 -reportprogress|300|-work|work|/home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd|/home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd|
+Z26 !s107 /home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd|/home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd|
+!i113 0
+R18
+R19
+Adataflow
+R8
+R9
+R10
+DEx4 work 10 fetchlogic 0 22 5jahK;mF8Ogce8061ePJ41
+!i122 120
+l23
+L18 15
+V759FzVeh5P1QNjG8>eKE?0
+!s100 1]H[SLCOD8BPmj1Hnl4ND1
+R13
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R18
+R19
 Eshifter
-Z19 w1667252658
-R3
-R4
-R5
+Z27 w1667252658
+R8
+R9
+R10
 !i122 69
 R1
-Z20 8/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
-Z21 F/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
+Z28 8/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
+Z29 F/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd
 l0
 L6 1
 V@Y6kI2k2@A]25m1Y5gIOm1
 !s100 `6==?j<gUT6ZjjB4AaAHa3
-R8
-33
-Z22 !s110 1667252662
-!i10b 1
-Z23 !s108 1667252662.000000
-Z24 !s90 -reportprogress|300|-work|work|/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd|/home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd|
-Z25 !s107 /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd|/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd|
-!i113 0
 R13
-R14
+33
+Z30 !s110 1667252662
+!i10b 1
+Z31 !s108 1667252662.000000
+Z32 !s90 -reportprogress|300|-work|work|/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd|/home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd|
+Z33 !s107 /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd|/home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd|
+!i113 0
+R18
+R19
 Adataflow
-R3
-R4
-R5
+R8
+R9
+R10
 DEx4 work 7 shifter 0 22 @Y6kI2k2@A]25m1Y5gIOm1
 !i122 69
 l25
 L19 18
 V45TCZE6BY]3PTDT502CZh3
 !s100 EUS;I^0kzekRG:oG=P^M50
-R8
+R13
 33
-R22
+R30
 !i10b 1
+R31
+R32
+R33
+!i113 0
+R18
+R19
+Etb_fetchlogic
+Z34 w1667485598
+Z35 DPx3 std 3 env 0 22 QPZJVBPkV?55nUWhDzFik0
+Z36 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R9
+R10
+!i122 120
+R1
+Z37 8/home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd
+Z38 F/home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd
+l0
+L9 1
+Vaeh1e0eKGIz2doiZ5XOa=0
+!s100 eVneJ=]kJPPiU@CRfn1P00
+R13
+33
 R23
+!i10b 1
 R24
 R25
+R26
 !i113 0
+R18
+R19
+Amixed
+R35
+R36
+R9
+R10
+DEx4 work 13 tb_fetchlogic 0 22 aeh1e0eKGIz2doiZ5XOa=0
+!i122 120
+l44
+L13 89
+V<:0@1b6kIdzPR3GSm>LPn2
+!s100 mj`e>o1KFSMhoW3M0a49`2
 R13
-R14
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R18
+R19
 Etb_shifter
-Z26 w1667251361
-Z27 DPx3 std 3 env 0 22 QPZJVBPkV?55nUWhDzFik0
-Z28 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
-R4
-R5
+Z39 w1667251361
+R35
+R36
+R9
+R10
 !i122 69
 R1
-Z29 8/home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
-Z30 F/home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+Z40 8/home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
+Z41 F/home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd
 l0
 L9 1
 Vkh[Vc;Wz0UN`;;lMj`lzG3
 !s100 6djoh>8cHC5_iCnSO:FVJ1
-R8
-33
-R22
-!i10b 1
-R23
-R24
-R25
-!i113 0
 R13
-R14
+33
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R18
+R19
 Amixed
-R27
-R28
-R4
-R5
+R35
+R36
+R9
+R10
 DEx4 work 10 tb_shifter 0 22 kh[Vc;Wz0UN`;;lMj`lzG3
 !i122 69
 l39
 L13 69
 VY`R]?[YaGQN;?HBbz7]4n3
 !s100 SI_hFKS]Lc?OC8dO5TBJ41
-R8
-33
-R22
-!i10b 1
-R23
-R24
-R25
-!i113 0
 R13
-R14
+33
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R18
+R19
