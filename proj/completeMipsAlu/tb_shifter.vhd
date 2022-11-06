@@ -20,9 +20,9 @@ constant cCLK_PER  : time := gCLK_HPER * 2;
 -- TODO: change component declaration as needed.
 component shifter is
   port(i_signed, i_dir            : in std_logic;
-       i_D	    	              : in std_logic_vector(31 downto 0);
-       i_shamt                    : in std_logic_vector(4 downto 0);
-       o_O                        : out std_logic_vector(31 downto 0));
+       i_D	    	                : in std_logic_vector(7 downto 0);
+       i_shamt                    : in std_logic_vector(2 downto 0);
+       o_O                        : out std_logic_vector(7 downto 0));
 end component;
 
 -- Create signals for all of the inputs and outputs of the file that you are testing
@@ -32,9 +32,9 @@ signal CLK, reset : std_logic := '0';
 -- TODO: change input and output signals as needed.
 signal s_signed : std_logic := '0';
 signal s_dir    : std_logic := '0';
-signal s_D      : std_logic_vector(31 downto 0) := X"00000000";
-signal s_shamt  : std_logic_vector(4 downto 0) := "00000";
-signal s_o      : std_logic_vector(31 downto 0);
+signal s_D      : std_logic_vector(7 downto 0) := X"00";
+signal s_shamt  : std_logic_vector(2 downto 0) := "000";
+signal s_o      : std_logic_vector(7 downto 0);
 
 begin
 
@@ -53,29 +53,105 @@ begin
 
   P_TEST_CASES: process
   begin
-    wait for gCLK_HPER/2; -- for waveform clarity, I prefer not to change inputs on clk edges
+    wait for gCLK_HPER; -- for waveform clarity, I prefer not to change inputs on clk edges
 
-    -- Test case 1:
-    
-    s_D <= X"00000001";
+    -- Test case 1: Shift to Left
+    s_D <= X"81";
     s_dir <= '0';
-    s_signed <= '0';
-    s_shamt <= "00011";
+    --s_signed <= '0';
+    s_shamt <= "000";
+    wait for gCLK_HPER;
 
-    wait for cCLK_PER;
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '1';
+    s_shamt <= "001";
+    wait for gCLK_HPER;
 
-    s_D <= X"FFFF0000";
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "010";
+    wait for gCLK_HPER;
+
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "011";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "100";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "101";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "110";
+    wait for gCLK_HPER;    
+
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "111";
+    wait for gCLK_HPER;
+
+    -- Test case 2: Shift to Right
+    s_D <= X"81";
     s_dir <= '1';
-    s_signed <= '1';
-    s_shamt <= "01000";
+    --s_signed <= '0';
+    s_shamt <= "000";
+    wait for gCLK_HPER;
 
-    wait for cCLK_PER;
-
-    s_D <= X"FFFF0000";
+    s_D <= X"81";
     s_dir <= '1';
-    s_signed <= '0';
-    s_shamt <= "01001";
+    --s_signed <= '1';
+    s_shamt <= "001";
+    wait for gCLK_HPER;
 
-    wait for cCLK_PER;
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "010";
+    wait for gCLK_HPER;
+
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "011";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "100";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "101";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "110";
+    wait for gCLK_HPER;    
+
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "111";
+    wait for gCLK_HPER;    
+ 
   end process;
 end mixed;
