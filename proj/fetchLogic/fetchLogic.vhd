@@ -24,9 +24,9 @@ begin
 
     s_pcPlusFour <= std_logic_vector(unsigned(i_pcIn) + 4);
 
-    o_pcOut <= s_pcPlusFour when (i_jumpSel = '0') and (i_branch  = '0') and (i_ALUZero = '0') else
-               s_pcPlusFour(31 downto 28) & i_jumpImm & "00" when i_jumpSel = '1' else
-               std_logic_vector(signed(s_pcPlusFour) + signed(i_branchImm(29 downto 0) & "00")) when (i_jumpSel = '0') and (i_branch = '1') and (i_ALUZero = '1');
+    o_pcOut <= s_pcPlusFour(31 downto 28) & i_jumpImm & "00" when i_jumpSel = '1' else
+               std_logic_vector(signed(s_pcPlusFour) + (signed(i_branchImm(29 downto 0) & "00"))) when (i_jumpSel = '0') and (i_branch = '1') and (i_ALUZero = '1') else
+               s_pcPlusFour;
 
     
 end dataflow;

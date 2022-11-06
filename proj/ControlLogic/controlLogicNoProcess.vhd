@@ -35,49 +35,38 @@ begin
   opcode <= i_D(31 downto 26);
   funcCode <= i_D(5 downto 0);
 
-  p_CASE : process
-    begin
-    
-    case opcode is
+  outputData <= 
+      
       -- addi
-      when "001000" =>
-        outputData <= "1000000010";
+      "1000000010" when opcode = "001000" else
 
       -- andi
-      when "001100" =>
-        outputData <= "1000010010";
+      "1000010010" when opcode = "001100" else
 
       -- addiu
-      when "001001" =>
-        outputData <= "1000100010";
+      "1000100010" when opcode = "001001" else
 
       -- beq
-      when "000100" =>
-        outputData <= "1000110000";
+      "1000110000" when opcode = "000100" else
 
       -- bne
-      when "000101" =>
-        outputData <= "1001000000";
+      "1001000000" when opcode = "000101" else
 
       -- lui
-      when "001111" =>
-        outputData <= "1001010010";
+      "1001010010" when opcode = "001111" else
 
       -- lw
-      when "100011" =>
-        outputData <= "1001101010";
+      "1001101010" when opcode = "100011" else
 
       --xori
-      when "001110" =>
-        outputData <= "1001110010";
+      "1001110010" when opcode = "001110" else
 
       -- ori
-      when "001101" =>
-        outputData <= "1010000010";
+      "1010000010" when opcode = "001101" else
 
       -- slti
-      when "001010" =>
-        outputData <= "1010010000";
+      "1010010000" when opcode = "001010" else
+
 
       -- sw
       when "101011" =>

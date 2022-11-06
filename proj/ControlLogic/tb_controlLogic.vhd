@@ -19,13 +19,13 @@ constant cCLK_PER  : time := gCLK_HPER * 2;
 -- component interface.
 -- TODO: change component declaration as needed.
 component controlLogic is
-port( i_D          : in std_logic_vector(27 downto 0);
-      i_ALUSrc     : out std_logic;
-      i_ALUControl : out std_logic_vector(3 downto 0);
-      i_memToReg   : out std_logic;
-      i_memWrite   : out std_logic;
-      i_regWrite   : out std_logic;
-      i_regDst     : out std_logic);
+port( i_D          : in std_logic_vector(31 downto 0);
+      o_ALUSrc     : out std_logic;
+      o_ALUControl : out std_logic_vector(4 downto 0);
+      o_memToReg   : out std_logic;
+      o_memWrite   : out std_logic;
+      o_regWrite   : out std_logic;
+      o_regDst     : out std_logic);
 end component;
 
 -- Create signals for all of the inputs and outputs of the file that you are testing
@@ -35,7 +35,7 @@ signal CLK, reset : std_logic := '0';
 -- TODO: change input and output signals as needed.
 signal s_D           : std_logic_vector(31 downto 0) := X"00000000";
 signal s_ALUSrc      : std_logic := '0';
-signal s_ALUControl  : std_logic_vector(3 downto 0) := "0000";
+signal s_ALUControl  : std_logic_vector(4 downto 0) := "00000";
 signal s_memToReg    : std_logic := '0';
 signal s_memWrite    : std_logic := '0';
 signal s_regWrite    : std_logic := '0';
@@ -50,12 +50,12 @@ begin
   -- the appropriate library component during simulation loading.
   DUT0: controlLogic
   port map(i_D          => s_D,
-           i_ALUSrc     => s_ALUSrc,
-           i_ALUControl => s_ALUControl,
-           i_memToReg   => s_memToReg,
-           i_memWrite   => s_memWrite,
-           i_regWrite   => s_regWrite,
-           i_regDst     => s_regDst);
+           o_ALUSrc     => s_ALUSrc,
+           o_ALUControl => s_ALUControl,
+           o_memToReg   => s_memToReg,
+           o_memWrite   => s_memWrite,
+           o_regWrite   => s_regWrite,
+           o_regDst     => s_regDst);
             
   --You can also do the above port map in one line using the below format: http://www.ics.uci.edu/~jmoorkan/vhdlref/compinst.html
 
@@ -64,7 +64,13 @@ begin
     wait for gCLK_HPER/2; -- for waveform clarity, I prefer not to change inputs on clk edges
 
     -- Test case 1:
+    s_D <= "00100000000000000000000000000000";
     
+    wait for gCLK_HPER;
+
+    s_D <= "00110000000000000000000000000000";
+
+    wait for gCLK_HPER;
     
 
     
