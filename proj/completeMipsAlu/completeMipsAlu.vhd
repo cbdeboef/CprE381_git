@@ -7,7 +7,8 @@ entity completeMipsAlu is
          i_portTwo        : in  std_logic_vector(31 downto 0);
          i_shamt          : 
          o_ALUOut         : out std_logic_vector(31 downto 0);
-         o_Zero           : out std_logic);
+         o_zero           : out std_logic;
+         o_overflow       : out std_logic);
 
 component AdderSubtractor is
     generic(N : integer := 32);
