@@ -25,7 +25,12 @@ port( i_D          : in std_logic_vector(31 downto 0);
       o_memToReg   : out std_logic;
       o_memWrite   : out std_logic;
       o_regWrite   : out std_logic;
-      o_regDst     : out std_logic);
+      o_regDst     : out std_logic;
+      o_jump       : out std_logic;
+      o_branch     : out std_logic;
+      o_memRead    : out std_logic;
+      o_jal        : out std_logic;
+      o_jreg       : out std_logic);
 end component;
 
 -- Create signals for all of the inputs and outputs of the file that you are testing
@@ -40,7 +45,11 @@ signal s_memToReg    : std_logic := '0';
 signal s_memWrite    : std_logic := '0';
 signal s_regWrite    : std_logic := '0';
 signal s_regDst      : std_logic := '0';
-
+signal s_jump        : std_logic := '0';
+signal s_branch      : std_logic := '0';
+signal s_memRead     : std_logic := '0';
+signal s_jal         : std_logic := '0';
+signal s_jreg        : std_logic := '0';
 
 begin
 
@@ -55,7 +64,12 @@ begin
            o_memToReg   => s_memToReg,
            o_memWrite   => s_memWrite,
            o_regWrite   => s_regWrite,
-           o_regDst     => s_regDst);
+           o_regDst     => s_regDst,
+           o_jump       => s_jump,
+           o_branch     => s_branch,
+           o_memRead    => s_memRead,
+           o_jal        => s_jal,
+           o_jreg       => s_jreg);
             
   --You can also do the above port map in one line using the below format: http://www.ics.uci.edu/~jmoorkan/vhdlref/compinst.html
 
@@ -68,10 +82,142 @@ begin
     
     wait for gCLK_HPER;
 
+    -- Test case 2:
     s_D <= "00110000000000000000000000000000";
 
     wait for gCLK_HPER;
 
+    -- Test case 3:
+    s_D <= "00100100000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 4:
+    s_D <= "00010000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 5:
+    s_D <= "00010100000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 6:
+    s_D <= "00111100000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 7:
+    s_D <= "10001100000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 8:
+    s_D <= "00111000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 9:
+    s_D <= "00110100000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 10:
+    s_D <= "00101000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 11:
+    s_D <= "10101100000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 12:
+    s_D <= "11111100000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 13:
+    s_D <= "00001000000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 14:
+    s_D <= "00001100000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 15:
+    s_D <= "00000000000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 16:
+    s_D <= "00000000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 17:
+    s_D <= "00000000000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 18:
+    s_D <= "00000000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 19:
+    s_D <= "00000000000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 20:
+    s_D <= "00000000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 21:
+    s_D <= "00000000000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 22:
+    s_D <= "00000000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 23:
+    s_D <= "00000000000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 24:
+    s_D <= "00110000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 25:
+    s_D <= "00110000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 26:
+    s_D <= "00100000000000000000000000000000";
+    
+    wait for gCLK_HPER;
+
+    -- Test case 27:
+    s_D <= "00110000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    -- Test case 28:
+    s_D <= "00100000000000000000000000000000";
+
+    wait for gCLK_HPER;
+
+    
     
 
     
