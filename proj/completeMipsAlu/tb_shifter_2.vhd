@@ -6,11 +6,11 @@ use std.env.all;                -- For hierarchical/external signals
 use std.textio.all;             -- For basic I/O
 
 
-entity tb_shifter is
+entity tb_shifter_2 is
   generic(gCLK_HPER   : time := 10 ns);   -- Generic for half of the clock cycle period
-end tb_shifter;
+end tb_shifter_2;
 
-architecture mixed of tb_shifter is
+architecture mixed of tb_shifter_2 is
 
 -- Define the total clock period time
 constant cCLK_PER  : time := gCLK_HPER * 2;
@@ -18,11 +18,11 @@ constant cCLK_PER  : time := gCLK_HPER * 2;
 -- We will be instantiating our design under test (DUT), so we need to specify its
 -- component interface.
 -- TODO: change component declaration as needed.
-component shifter is
+component shifter_2 is
   port(i_signed, i_dir            : in std_logic;
-       i_D	    	                : in std_logic_vector(31 downto 0);
-       i_shamt                    : in std_logic_vector(4 downto 0);
-       o_O                        : out std_logic_vector(31 downto 0));
+       i_D	    	                : in std_logic_vector(7 downto 0);
+       i_shamt                    : in std_logic_vector(2 downto 0);
+       o_O                        : out std_logic_vector(7 downto 0));
 end component;
 
 -- Create signals for all of the inputs and outputs of the file that you are testing
@@ -32,9 +32,9 @@ signal CLK, reset : std_logic := '0';
 -- TODO: change input and output signals as needed.
 signal s_signed : std_logic := '0';
 signal s_dir    : std_logic := '0';
-signal s_D      : std_logic_vector(31 downto 0) := X"00000000";
-signal s_shamt  : std_logic_vector(4 downto 0) := "00000";
-signal s_o      : std_logic_vector(31 downto 0);
+signal s_D      : std_logic_vector(7 downto 0) := X"00";
+signal s_shamt  : std_logic_vector(2 downto 0) := "000";
+signal s_o      : std_logic_vector(7 downto 0);
 
 begin
 
@@ -42,7 +42,7 @@ begin
   -- input or output. Note that DUT0 is just the name of the instance that can be seen 
   -- during simulation. What follows DUT0 is the entity name that will be used to find
   -- the appropriate library component during simulation loading.
-  DUT0: shifter
+  DUT0: shifter_2
   port map(
             i_signed => s_signed,
             i_dir    => s_dir,
@@ -56,68 +56,102 @@ begin
     wait for gCLK_HPER; -- for waveform clarity, I prefer not to change inputs on clk edges
 
     -- Test case 1: Shift to Left
-    s_D <= X"80000001";
+    s_D <= X"81";
     s_dir <= '0';
     --s_signed <= '0';
-    s_shamt <= "00000";
+    s_shamt <= "000";
     wait for gCLK_HPER;
 
-    s_shamt <= "00001";
-    wait for gCLK_HPER;
-    s_shamt <= "00010";
-    wait for gCLK_HPER;
-    s_shamt <= "00011";
-    wait for gCLK_HPER;
-
-    s_shamt <= "11101";
-    wait for gCLK_HPER;
-    s_shamt <= "11110";
-    wait for gCLK_HPER;
-    s_shamt <= "11111";
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '1';
+    s_shamt <= "001";
     wait for gCLK_HPER;
 
-    -- Test case 2: Shift to Right unsigned
-    s_D <= X"80000001";
-    s_dir <= '1';
+    s_D <= X"81";
+    s_dir <= '0';
     --s_signed <= '0';
-    s_shamt <= "00000";
+    s_shamt <= "010";
     wait for gCLK_HPER;
 
-    s_shamt <= "00001";
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "011";
     wait for gCLK_HPER;
-    s_shamt <= "00010";
+    
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "100";
     wait for gCLK_HPER;
-    s_shamt <= "00011";
+    
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "101";
     wait for gCLK_HPER;
-
-    s_shamt <= "11101";
-    wait for gCLK_HPER;
-    s_shamt <= "11110";
-    wait for gCLK_HPER;
-    s_shamt <= "11111";
+    
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "110";
     wait for gCLK_HPER;    
 
-    -- Test case 3: Shift to Right signed
-    s_D <= X"80000001";
+    s_D <= X"81";
+    s_dir <= '0';
+    --s_signed <= '0';
+    s_shamt <= "111";
+    wait for gCLK_HPER;
+
+    -- Test case 2: Shift to Right
+    s_D <= X"81";
     s_dir <= '1';
-    s_signed <= '1';
-    s_shamt <= "00000";
+    --s_signed <= '0';
+    s_shamt <= "000";
     wait for gCLK_HPER;
 
-    s_shamt <= "00001";
-    wait for gCLK_HPER;
-    s_shamt <= "00010";
-    wait for gCLK_HPER;
-    s_shamt <= "00011";
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '1';
+    s_shamt <= "001";
     wait for gCLK_HPER;
 
-    s_shamt <= "11101";
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "010";
     wait for gCLK_HPER;
-    s_shamt <= "11110";
+
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "011";
     wait for gCLK_HPER;
-    s_shamt <= "11111";
-    wait for gCLK_HPER;        
-  
+    
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "100";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "101";
+    wait for gCLK_HPER;
+    
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "110";
+    wait for gCLK_HPER;    
+
+    s_D <= X"81";
+    s_dir <= '1';
+    --s_signed <= '0';
+    s_shamt <= "111";
+    wait for gCLK_HPER;    
  
   end process;
 end mixed;
