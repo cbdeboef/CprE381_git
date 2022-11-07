@@ -599,3 +599,271 @@ vsim -voptargs=+acc work.tb_fetchlogic
 add wave -position insertpoint  \
 sim:/tb_fetchlogic/s_pcOut
 run
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicNoProcess.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 19:21:20 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicNoProcess.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicNoProcess.vhd(6): (vcom-1615) Existing entity 'controlLogic' at /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(6) will be overwritten.
+# -- Compiling entity controlLogic
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicNoProcess.vhd(32): (vcom-1615) Existing architecture 'controlLogic(dataflow)' at /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd(27) will be overwritten.
+# -- Compiling architecture dataflow of controlLogic
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_controlLogic
+# -- Compiling architecture mixed of tb_controlLogic
+# End time: 19:21:21 on Nov 06,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 19:22:33 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_controlLogic
+# -- Compiling architecture mixed of tb_controlLogic
+# End time: 19:22:33 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_controllogic
+# End time: 19:22:42 on Nov 06,2022, Elapsed time: 2:36:38
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_controllogic 
+# Start time: 19:22:42 on Nov 06,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_controllogic(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.controllogic(dataflow)#1
+run
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 19:30:17 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_controlLogic
+# -- Compiling architecture mixed of tb_controlLogic
+# -- Loading package NUMERIC_STD
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# End time: 19:30:17 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_controllogic(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.controllogic(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_controllogic/s_ALUControl \
+sim:/tb_controllogic/s_ALUSrc \
+sim:/tb_controllogic/s_branch \
+sim:/tb_controllogic/s_D \
+sim:/tb_controllogic/s_jal \
+sim:/tb_controllogic/s_jreg \
+sim:/tb_controllogic/s_jump \
+sim:/tb_controllogic/s_memRead \
+sim:/tb_controllogic/s_memToReg \
+sim:/tb_controllogic/s_memWrite \
+sim:/tb_controllogic/s_regDst \
+sim:/tb_controllogic/s_regWrite
+run
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 20:21:33 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_replQb
+# -- Compiling architecture mixed of tb_replQb
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(52): Illegal target for signal assignment.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(52): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(54): near "wait": (vcom-1576) expecting ';'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(56): Illegal target for signal assignment.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(56): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(58): near "wait": (vcom-1576) expecting ';'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(60): Illegal target for signal assignment.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(60): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(62): near "wait": (vcom-1576) expecting ';'.
+# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(43): (vcom-1272) Length of formal "o_O" is 32; length of actual is 8.
+# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(64): VHDL Compiler exiting
+# End time: 20:21:34 on Nov 06,2022, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 20:21:51 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_replQb
+# -- Compiling architecture mixed of tb_replQb
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(54): near "wait": (vcom-1576) expecting ';'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(58): near "wait": (vcom-1576) expecting ';'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(62): near "wait": (vcom-1576) expecting ';'.
+# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(43): (vcom-1272) Length of formal "o_O" is 32; length of actual is 8.
+# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(64): VHDL Compiler exiting
+# End time: 20:21:51 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 20:22:01 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_replQb
+# -- Compiling architecture mixed of tb_replQb
+# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(43): (vcom-1272) Length of formal "o_O" is 32; length of actual is 8.
+# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd(64): VHDL Compiler exiting
+# End time: 20:22:01 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 20:22:25 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_replQb
+# -- Compiling architecture mixed of tb_replQb
+# End time: 20:22:25 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_replqb
+# End time: 20:22:33 on Nov 06,2022, Elapsed time: 0:59:51
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_replqb 
+# Start time: 20:22:33 on Nov 06,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_replqb(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.replqb(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_replqb/s_D \
+sim:/tb_replqb/s_o
+run
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:08:44 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): Type error resolving infix expression "&" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(13): VHDL Compiler exiting
+# End time: 21:08:44 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:09:00 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): Type error resolving infix expression "&" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(13): VHDL Compiler exiting
+# End time: 21:09:01 on Nov 06,2022, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:09:15 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(12): Type error resolving infix expression "&" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd(13): VHDL Compiler exiting
+# End time: 21:09:15 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 21:09:21 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# End time: 21:09:21 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

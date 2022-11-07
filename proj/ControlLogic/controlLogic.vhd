@@ -20,13 +20,18 @@ entity controlLogic is
        o_memToReg   : out std_logic;
        o_memWrite   : out std_logic;
        o_regWrite   : out std_logic;
-       o_regDst     : out std_logic);
+       o_regDst     : out std_logic;
+       o_jump       : out std_logic;
+       o_branch     : out std_logic;
+       o_memRead    : out std_logic;
+       o_jal        : out std_logic;
+       o_jreg       : out std_logic);
 
 end controlLogic;
 
 architecture dataflow of controlLogic is
 
-signal outputData : std_logic_vector(9 downto 0);
+signal outputData : std_logic_vector(14 downto 0);
 signal opcode     : std_logic_vector(5 downto 0);
 signal funcCode   : std_logic_vector(5 downto 0);
 
@@ -35,143 +40,107 @@ begin
   opcode <= i_D(31 downto 26);
   funcCode <= i_D(5 downto 0);
 
-  p_CASE : process
-    begin
-    
-    case opcode is
+  outputData <= 
+      
       -- addi
-      when "001000" =>
-        outputData <= "1000000010";
+      "100000001000000" when opcode = "001000" else
 
       -- andi
-      when "001100" =>
-        outputData <= "1000010010";
+      "100001001000000" when opcode = "001100" else
 
       -- addiu
-      when "001001" =>
-        outputData <= "1000100010";
+      "100010001000000" when opcode = "001001" else
 
       -- beq
-      when "000100" =>
-        outputData <= "1000110000";
+      "100011000001000" when opcode = "000100" else
 
       -- bne
-      when "000101" =>
-        outputData <= "1001000000";
+      "100100000001000" when opcode = "000101" else
 
       -- lui
-      when "001111" =>
-        outputData <= "1001010010";
+      "100101001000000" when opcode = "001111" else
 
       -- lw
-      when "100011" =>
-        outputData <= "1001101010";
+      "100010101000100" when opcode = "100011" else
 
       --xori
-      when "001110" =>
-        outputData <= "1001110010";
+      "100110001000000" when opcode = "001110" else
 
       -- ori
-      when "001101" =>
-        outputData <= "1010000010";
+      "100111001000000" when opcode = "001101" else
 
       -- slti
-      when "001010" =>
-        outputData <= "1010010000";
+      "101000000000000" when opcode = "001010" else
 
       -- sw
-      when "101011" =>
-        outputData <= "1010100100";
+      "100010010000000" when opcode = "101011" else
 
       -- repl.qb
-      when "111111" =>
-        outputData <= "1010110010";
+      "101001001000000" when opcode = "111111" else
 
       -- j
-      when "000010" =>
-        outputData <= "0011000000";
+      "000000000010000" when opcode = "000010" else
 
       -- jal
-      when "000011" =>
-        outputData <= "0011010000";
+      "001010000010010" when opcode = "000011" else
+
+      -- add
+      "000000001100000" when opcode = "000000" else
+
+      -- addu
+      "000010001100000" when opcode = "000001" else
+
+      -- and
+      "000001001100000" when opcode = "000011" else
+
+      -- not
+      "001011001100000" when opcode = "000100" else
+
+      -- nor
+      "001100001100000" when opcode = "000101" else
+
+      -- xor
+      "000110001100000" when opcode = "000110" else
       
-      when others =>
-        outputData <= "0000000000";
+      -- or
+      "000111001100000" when opcode = "000111" else
 
-    end case;
-  end process;
+      -- slt
+      "001000001100000" when opcode = "001000" else
 
-  p_OPCODE : process
-    begin
+      -- sll
+      "001101001100000" when opcode = "001001" else
 
-    if (i_D(31 downto 26) = "000000") then
-      
-      case funcCode is
+      -- srl
+      "001110001100000" when opcode = "001010" else
 
-        -- add
-        when "000000" =>
-          outputData <= "0011100011";
+      -- sra
+      "001111001100000" when opcode = "001011" else
 
-        -- addu
-        when "000001" =>
-          outputData <= "0011110011";
+      -- sub
+      "010000001100000" when opcode = "001100" else
 
-        -- and
-        when "000011" =>
-          outputData <= "1100000011";
+      -- subu
+      "000011001100000" when opcode = "001100" else
 
-        -- not
-        when "000100" =>
-          outputData <= "0100010011";
+      -- jr
+      "000000000100001" when opcode = "001101" else
 
-        -- nor
-        when "000101" =>
-          outputData <= "0100100011";
+      -- else
+      "000000000000000";
+    
 
-        -- xor
-        when "000110" =>
-          outputData <= "0100110011";
-        
-        -- or
-        when "000111" =>
-          outputData <= "0101000011";
 
-        -- slt
-        when "001000" =>
-          outputData <= "0101010011";
-
-        -- sll
-        when "001001" =>
-          outputData <= "0101100011";
-
-        -- srl
-        when "001010" =>
-          outputData <= "0101110011";
-
-        -- sra
-        when "001011" =>
-          outputData <= "0101110011";
-
-        -- sub
-        when "001100" =>
-          outputData <= "0110010011";
-
-        -- jr
-        when "001101" =>
-          outputData <= "0110100001";
-
-        when others =>
-          outputData <= "0000000000";
-      
-      end case;
-    end if;
-  end process;
-
-  o_ALUSrc     <= outputData(9);
-  o_ALUControl <= outputData(8 downto 4);
-  o_memToReg   <= outputData(3);
-  o_memWrite   <= outputData(2);
-  o_regWrite   <= outputData(1);
-  o_regDst     <= outputData(0);
+  o_ALUSrc     <= outputData(14);
+  o_ALUControl <= outputData(13 downto 9);
+  o_memToReg   <= outputData(8);
+  o_memWrite   <= outputData(7);
+  o_regWrite   <= outputData(6);
+  o_regDst     <= outputData(5);
+  o_jump       <= outputData(4);
+  o_branch     <= outputData(3);
+  o_memRead    <= outputData(2);
+  o_jal        <= outputData(1);
+  o_jreg       <= outputData(0);
 
 end dataflow;
