@@ -19,13 +19,13 @@ constant cCLK_PER  : time := gCLK_HPER * 2;
 -- component interface.
 -- TODO: change component declaration as needed.
 component fetchLogic is
-  port(i_pcIn      : in  std_logic_vector(31 downto 0);
+  port(i_pcCurrent      : in  std_logic_vector(31 downto 0);
        i_jumpImm   : in  std_logic_vector(25 downto 0);
        i_branchImm : in std_logic_vector(31 downto 0);
        i_jumpSel   : in  std_logic;
        i_branch    : in  std_logic;
        i_ALUZero   : in  std_logic;
-       o_pcOut     : out std_logic_vector(31 downto 0));
+       o_pcUpdated     : out std_logic_vector(31 downto 0));
 end component;
 
 -- Create signals for all of the inputs and outputs of the file that you are testing
@@ -33,13 +33,13 @@ end component;
 signal CLK, reset : std_logic := '0';
 
 -- TODO: change input and output signals as needed.
-signal s_pcIn      : std_logic_vector(31 downto 0) := X"00000000";
+signal s_pcCurrent      : std_logic_vector(31 downto 0) := X"00000000";
 signal s_jumpImm   : std_logic_vector(25 downto 0) := "00000000000000000000000000";
 signal s_branchImm : std_logic_vector(31 downto 0) := X"00000000"; 
 signal s_jumpSel   : std_logic := '0';
 signal s_branch    : std_logic := '0';
 signal s_ALUZero   : std_logic := '0';
-signal s_pcOut     : std_logic_vector(31 downto 0);
+signal s_pcUpdated     : std_logic_vector(31 downto 0);
 
 begin
 
@@ -49,20 +49,20 @@ begin
   -- the appropriate library component during simulation loading.
   DUT0: fetchLogic
   port map(
-            i_pcIn      => s_pcIn,
+            i_pcCurrent => s_pcCurrent,
             i_jumpImm   => s_jumpImm,
             i_branchImm => s_branchImm,
             i_jumpSel   => s_jumpSel,
             i_branch    => s_branch,
             i_ALUZero   => s_ALUZero,
-            o_pcOut     => s_pcOut);
+            o_pcUpdated => s_pcUpdated);
   --You can also do the above port map in one line using the below format: http://www.ics.uci.edu/~jmoorkan/vhdlref/compinst.html
 
   P_TEST_CASES: process
   begin
     wait for gCLK_HPER/2; -- for waveform clarity, I prefer not to change inputs on clk edges
 
-    s_pcIn      <= X"10010000";
+    s_pcCurrent      <= X"10010000";
     s_jumpImm   <= "11111100000000000000111111";
     s_branchImm <= X"00004321";
 

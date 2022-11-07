@@ -564,3 +564,38 @@ sim:/tb_controllogic/DUT0/o_regDst \
 sim:/tb_controllogic/DUT0/o_regWrite \
 sim:/tb_controllogic/DUT0/opcode \
 sim:/tb_controllogic/DUT0/outputData
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd /home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 16:45:57 on Nov 06,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd /home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fetchLogic
+# -- Compiling architecture dataflow of fetchLogic
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_fetchLogic
+# -- Compiling architecture mixed of tb_fetchLogic
+# End time: 16:45:57 on Nov 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_fetchlogic
+# End time: 16:46:04 on Nov 06,2022, Elapsed time: 1:46:19
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_fetchlogic 
+# Start time: 16:46:04 on Nov 06,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_fetchlogic(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.fetchlogic(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_fetchlogic/s_pcOut
+run

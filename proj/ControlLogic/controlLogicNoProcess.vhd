@@ -67,94 +67,61 @@ begin
       -- slti
       "1010010000" when opcode = "001010" else
 
-
       -- sw
-      when "101011" =>
-        outputData <= "1010100100";
+      "1010100100" when opcode = "101011" else
 
       -- repl.qb
-      when "111111" =>
-        outputData <= "1010110010";
+      "1010110010" when opcode = "111111" else
 
       -- j
-      when "000010" =>
-        outputData <= "0011000000";
+      "0011000000" when opcode = "000010" else
 
       -- jal
-      when "000011" =>
-        outputData <= "0011010000";
+      "0011010000" when opcode = "000011" else
+
+      -- add
+      "0011100011" when opcode = "000000" else
+
+      -- addu
+      "0011110011" when opcode = "000001" else
+
+      -- and
+      "1100000011" when opcode = "000011" else
+
+      -- not
+      "0100010011" when opcode = "000100" else
+
+      -- nor
+      "0100100011" when opcode = "000101" else
+
+      -- xor
+      "0100110011" when opcode = "000110" else
       
-      when others =>
-        outputData <= "0000000000";
+      -- or
+      "0101000011" when opcode = "000111" else
 
-    end case;
-  end process;
+      -- slt
+      "0101010011" when opcode = "001000" else
 
-  p_OPCODE : process
-    begin
+      -- sll
+      "0101100011" when opcode = "001001" else
 
-    if (i_D(31 downto 26) = "000000") then
-      
-      case funcCode is
+      -- srl
+      "0101110011" when opcode = "001010" else
 
-        -- add
-        when "000000" =>
-          outputData <= "0011100011";
+      -- sra
+      "0101110011" when opcode = "001011" else
 
-        -- addu
-        when "000001" =>
-          outputData <= "0011110011";
+      -- sub
+      "0110010011" when opcode = "001100" else
 
-        -- and
-        when "000011" =>
-          outputData <= "1100000011";
+      -- jr
+      "0110100001" when opcode = "001101" else
 
-        -- not
-        when "000100" =>
-          outputData <= "0100010011";
+      -- else
+      "0000000000";
+    
 
-        -- nor
-        when "000101" =>
-          outputData <= "0100100011";
-
-        -- xor
-        when "000110" =>
-          outputData <= "0100110011";
-        
-        -- or
-        when "000111" =>
-          outputData <= "0101000011";
-
-        -- slt
-        when "001000" =>
-          outputData <= "0101010011";
-
-        -- sll
-        when "001001" =>
-          outputData <= "0101100011";
-
-        -- srl
-        when "001010" =>
-          outputData <= "0101110011";
-
-        -- sra
-        when "001011" =>
-          outputData <= "0101110011";
-
-        -- sub
-        when "001100" =>
-          outputData <= "0110010011";
-
-        -- jr
-        when "001101" =>
-          outputData <= "0110100001";
-
-        when others =>
-          outputData <= "0000000000";
-      
-      end case;
-    end if;
-  end process;
 
   o_ALUSrc     <= outputData(9);
   o_ALUControl <= outputData(8 downto 4);
