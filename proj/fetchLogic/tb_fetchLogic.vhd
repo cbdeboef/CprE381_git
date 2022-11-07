@@ -25,7 +25,7 @@ component fetchLogic is
        i_jumpSel   : in  std_logic;
        i_branch    : in  std_logic;
        i_ALUZero   : in  std_logic;
-       o_pcUpdated     : out std_logic_vector(31 downto 0));
+       o_pcUpdated : out std_logic_vector(31 downto 0));
 end component;
 
 -- Create signals for all of the inputs and outputs of the file that you are testing
@@ -33,13 +33,13 @@ end component;
 signal CLK, reset : std_logic := '0';
 
 -- TODO: change input and output signals as needed.
-signal s_pcCurrent      : std_logic_vector(31 downto 0) := X"00000000";
+signal s_pcCurrent : std_logic_vector(31 downto 0) := X"00000000";
 signal s_jumpImm   : std_logic_vector(25 downto 0) := "00000000000000000000000000";
 signal s_branchImm : std_logic_vector(31 downto 0) := X"00000000"; 
 signal s_jumpSel   : std_logic := '0';
 signal s_branch    : std_logic := '0';
 signal s_ALUZero   : std_logic := '0';
-signal s_pcUpdated     : std_logic_vector(31 downto 0);
+signal s_pcUpdated : std_logic_vector(31 downto 0);
 
 begin
 
@@ -96,6 +96,5 @@ begin
     s_ALUZero   <= '0';
     wait for gCLK_HPER;
 
-    wait for cCLK_PER;
   end process;
 end mixed;

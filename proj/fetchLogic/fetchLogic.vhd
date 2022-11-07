@@ -22,11 +22,11 @@ architecture dataflow of fetchLogic is
 
 begin
 
-    s_pcPlusFour <= std_logic_vector(unsigned(i_pcUpdated) + 1);
+    s_pcPlusFour <= std_logic_vector(unsigned(i_pcCurrent) + 1);
 
     o_pcUpdated <= s_pcPlusFour(31 downto 26) & i_jumpImm when i_jumpSel = '1' else
                    std_logic_vector(signed(s_pcPlusFour) + signed(i_branchImm(29 downto 0))) when (i_jumpSel = '0') and (i_branch = '1') and (i_ALUZero = '1') else
-                   s_pcPlusFour;
+                   s_pcPlusFour when i_jumpSel = '0' and (i_branch = '0' or i_ALUZero = '0');
 
     
 end dataflow;

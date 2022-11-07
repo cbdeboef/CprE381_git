@@ -85,46 +85,46 @@ begin
       "001010000010010" when opcode = "000011" else
 
       -- add
-      "000000001100000" when opcode = "000000" else
+      "000000001100000" when funcCode = "000000" else
 
       -- addu
-      "000010001100000" when opcode = "000001" else
+      "000010001100000" when funcCode = "000001" else
 
       -- and
-      "000001001100000" when opcode = "000011" else
+      "000001001100000" when funcCode = "000011" else
 
       -- not
-      "001011001100000" when opcode = "000100" else
+      "001011001100000" when funcCode = "000100" else
 
       -- nor
-      "001100001100000" when opcode = "000101" else
+      "001100001100000" when funcCode = "000101" else
 
       -- xor
-      "000110001100000" when opcode = "000110" else
+      "000110001100000" when funcCode = "000110" else
       
       -- or
-      "000111001100000" when opcode = "000111" else
+      "000111001100000" when funcCode = "000111" else
 
       -- slt
-      "001000001100000" when opcode = "001000" else
+      "001000001100000" when funcCode = "001000" else
 
       -- sll
-      "001101001100000" when opcode = "001001" else
+      "001101001100000" when funcCode = "001001" else
 
       -- srl
-      "001110001100000" when opcode = "001010" else
+      "001110001100000" when funcCode = "001010" else
 
       -- sra
-      "001111001100000" when opcode = "001011" else
+      "001111001100000" when funcCode = "001011" else
 
       -- sub
-      "010000001100000" when opcode = "001100" else
+      "010000001100000" when funcCode = "001100" else
 
       -- subu
-      "000011001100000" when opcode = "001100" else
+      "000011001100000" when funcCode = "001100" else
 
       -- jr
-      "000000000100001" when opcode = "001101" else
+      "000000000100001" when funcCode = "001101" else
 
       -- else
       "000000000000000";
