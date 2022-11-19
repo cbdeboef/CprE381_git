@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 
 entity ALUControl is
   port(i_ALUControl : in  std_logic_vector(5 downto 0);
-       o_O : out std_logic_vector(31 downto 0));
+       o_O : out std_logic_vector(13 downto 0));
 end ALUControl;
 
 architecture dataflow of ALUControl is
