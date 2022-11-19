@@ -1,6 +1,601 @@
 m255
 K4
 z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/cbdeboef/CprE381_git
+T_opt
+!s110 1667796673
+V:zXQ;`zjkUJef^8`Vzoj;3
+04 15 5 work tb_controllogic mixed 1
+=1-6805ca4a94a1-63688ec1-2c38c-727
+R0
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1668897596
+V]MJ9neLY_nBnePim3TA:P3
+04 13 8 work tb_mux32_2to1 behavior 1
+=1-00133b5b2bd3-63795b3c-6e3f6-151c
+R0
+R2
+R3
+R4
+n@_opt1
+R5
+Eand32
+Z6 w1668894914
+Z7 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z8 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 33
+Z9 d/home/blattner/cpre381_f22/CprE381_git
+Z10 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/and32.vhd
+Z11 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/and32.vhd
+l0
+L4 1
+VCZc1VS0WR0]O8N0efh>i]3
+!s100 a<aPAGRZXoCSm:FDdS0:51
+Z12 OL;C;2022.2;75
+33
+Z13 !s110 1668894915
+!i10b 1
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 NoCoverage 1 CvgOpt 0
+Astructural
+R7
+R8
+DEx4 work 5 and32 0 22 CZc1VS0WR0]O8N0efh>i]3
+!i122 33
+l17
+Z16 L10 16
+VL`jk_^JAMGkb[RO?=1o0C1
+!s100 3e^>_VF=eAZNmg_7:kLIZ1
+R12
+33
+R13
+!i10b 1
+!i113 0
+R14
+R15
+Eandg2
+Z17 w1575899276
+R7
+R8
+!i122 29
+R9
+Z18 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/andg2.vhd
+Z19 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/andg2.vhd
+l0
+Z20 L23 1
+V`ZXnieNX25Iz2HDXPGzo91
+!s100 0e<Rg^QbB^Y@JP[zKSc0[3
+R12
+33
+Z21 !s110 1668894169
+!i10b 1
+!i113 0
+R14
+R15
+Adataflow
+R7
+R8
+DEx4 work 5 andg2 0 22 `ZXnieNX25Iz2HDXPGzo91
+!i122 29
+l32
+Z22 L31 6
+VaH[`4RgPnZ4F<9<6AYHeb1
+!s100 CbBW?3Q;N[15?`QCEQ<@f2
+R12
+33
+R21
+!i10b 1
+!i113 0
+R14
+R15
+Ecascade_or
+Z23 w1668890934
+Z24 DPx4 work 13 cpre381custom 0 22 j:KRF^O:4:<[E^oF_3^iS1
+Z25 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+R7
+R8
+!i122 18
+R9
+Z26 8/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/cascade_or.vhd
+Z27 F/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/cascade_or.vhd
+l0
+L7 1
+V3T9JC>TAXf1Vj:ZkaQn<d0
+!s100 >V>J>Hb:C4A?CE6f0Glm02
+R12
+33
+Z28 !s110 1668890936
+!i10b 1
+!i113 0
+R14
+R15
+Astructural
+R24
+R25
+R7
+R8
+DEx4 work 10 cascade_or 0 22 3T9JC>TAXf1Vj:ZkaQn<d0
+!i122 18
+l24
+L14 27
+VCC<Camh@gGZ;CZE5h`<eU0
+!s100 7bQPHZlk53lB`?ZIUij580
+R12
+33
+R28
+!i10b 1
+!i113 0
+R14
+R15
+Econtrollogic
+Z29 w1667796650
+R25
+R7
+R8
+!i122 1
+R1
+Z30 8/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+Z31 F/home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd
+l0
+L6 1
+V3T@g8FQZVNklKf[@CO[<Y3
+!s100 cCG_93QVV?jUSQZUTdOl21
+R12
+33
+Z32 !s110 1667796666
+!i10b 1
+!i113 0
+R14
+R15
+Adataflow
+R25
+R7
+R8
+DEx4 work 12 controllogic 0 22 3T@g8FQZVNklKf[@CO[<Y3
+!i122 1
+l38
+L32 115
+VjJV35c<Z6[AZ^h>MLJQl90
+!s100 mfYi=8ETF2ZnYhh6o;hbN1
+R12
+33
+R32
+!i10b 1
+!i113 0
+R14
+R15
+Pcpre381custom
+R7
+R8
+!i122 16
+Z33 w1663248310
+R9
+Z34 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd
+Z35 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd
+l0
+L4 5
+Vj:KRF^O:4:<[E^oF_3^iS1
+!s100 jVLKjE17[BRGPiK6V2hGC1
+R12
+33
+Z36 !s110 1668890901
+!i10b 1
+!i113 0
+R14
+R15
+Bbody
+R24
+R7
+R8
+!i122 16
+l0
+L10 3
+VJ1FX6eDdlk7LYfQWnZ4gK0
+!s100 VFQ?fbPK8NVKkCBP>JnI?2
+R12
+33
+R36
+!i10b 1
+!i113 0
+R14
+R15
+Efetchlogic
+Z37 w1667799290
+R25
+R7
+R8
+!i122 15
+R1
+Z38 8/home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd
+Z39 F/home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd
+l0
+L6 1
+V?AKeGn@MdFI>?I?YTPFHH2
+!s100 RI<o?i9Ul;1X4c<jQ4V0Y1
+R12
+33
+Z40 !s110 1667799292
+!i10b 1
+!i113 0
+R14
+R15
+Adataflow
+R25
+R7
+R8
+DEx4 work 10 fetchlogic 0 22 ?AKeGn@MdFI>?I?YTPFHH2
+!i122 15
+l23
+L18 15
+VV4h4AVjf`KekMTkMXMO232
+!s100 oeCnE1;PMGTggZn=YenT32
+R12
+33
+R40
+!i10b 1
+!i113 0
+R14
+R15
+Einvg
+R17
+R7
+R8
+!i122 48
+R9
+Z41 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/invg.vhd
+Z42 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/invg.vhd
+l0
+R20
+V^IQhB0M:TibmTX48^HJa:0
+!s100 5^0jfQ^dVk:bl_Za_KajG0
+R12
+33
+Z43 !s110 1668896325
+!i10b 1
+!i113 0
+R14
+R15
+Adataflow
+R7
+R8
+DEx4 work 4 invg 0 22 ^IQhB0M:TibmTX48^HJa:0
+!i122 48
+l31
+L30 6
+VGnAN1IHi;Y?=mi4968o873
+!s100 Q?`9^ToWC]zk1[=<LdPdE3
+R12
+33
+R43
+!i10b 1
+!i113 0
+R14
+R15
+Einvg32
+Z44 w1668896320
+R7
+R8
+!i122 49
+R9
+Z45 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/invg32.vhd
+Z46 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/invg32.vhd
+l0
+L4 1
+V8Ob6ZSK8TKRglHh6?YR>B2
+!s100 VS[HLBVi@@IR:HcFzTDQi0
+R12
+33
+Z47 !s110 1668896328
+!i10b 1
+!i113 0
+R14
+R15
+Astructural
+R7
+R8
+DEx4 work 6 invg32 0 22 8Ob6ZSK8TKRglHh6?YR>B2
+!i122 49
+l15
+L9 15
+V>@jl8dSJXPg[gSKQ7oE`E3
+!s100 kf=cL7l=aIWOJn^3lgLJe1
+R12
+33
+R47
+!i10b 1
+!i113 0
+R14
+R15
+Emux32_2to1
+Z48 w1668897560
+R24
+R25
+R7
+R8
+!i122 53
+R9
+Z49 8/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd
+Z50 F/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd
+l0
+R20
+V5miA6^MAomMWcFGfL@Gnf1
+!s100 Ta0FdgLEPTBc>b@ZfiWff1
+R12
+33
+Z51 !s110 1668897561
+!i10b 1
+!i113 0
+R14
+R15
+Adataflow
+R24
+R25
+R7
+R8
+DEx4 work 10 mux32_2to1 0 22 5miA6^MAomMWcFGfL@Gnf1
+!i122 53
+l34
+L32 8
+VcAUhXX0YH?NB^2ILE27>F3
+!s100 UD:1aV=e=6B9R?X<f4I5E1
+R12
+33
+R51
+!i10b 1
+!i113 0
+R14
+R15
+Emux32_8to1
+Z52 w1668892256
+R24
+R25
+R7
+R8
+!i122 21
+R9
+Z53 8/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd
+Z54 F/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd
+l0
+R20
+V96WDW4E_G=BDJYBTCXKV;2
+!s100 [M42@aHkGE`bg:[ANWZDP2
+R12
+33
+Z55 !s110 1668892435
+!i10b 1
+!i113 0
+R14
+R15
+Adataflow
+R24
+R25
+R7
+R8
+DEx4 work 10 mux32_8to1 0 22 96WDW4E_G=BDJYBTCXKV;2
+!i122 21
+l34
+L31 8
+Vh?=neNgh]37DC<33LVPBa1
+!s100 NZL]m9Z:d2Xem:<6Ba=ch3
+R12
+33
+R55
+!i10b 1
+!i113 0
+R14
+R15
+Eor32
+Z56 w1668895078
+R7
+R8
+!i122 35
+R9
+Z57 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/or32.vhd
+Z58 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/or32.vhd
+l0
+L4 1
+Ve7XAdELjEKN[nP]0;eg9H3
+!s100 Ce9Pk2=1eX6:Pl6cH[fM23
+R12
+33
+Z59 !s110 1668895158
+!i10b 1
+!i113 0
+R14
+R15
+Astructural
+R7
+R8
+DEx4 work 4 or32 0 22 e7XAdELjEKN[nP]0;eg9H3
+!i122 35
+l17
+R16
+V<`aB?CBCL_0<=OSWZb1KW2
+!s100 naQ=5705RVS[<cY4B6:kH2
+R12
+33
+R59
+!i10b 1
+!i113 0
+R14
+R15
+Eorg2
+R17
+R7
+R8
+!i122 19
+R9
+Z60 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/org2.vhd
+Z61 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/org2.vhd
+l0
+R20
+VkbW`>IOf=9G1AFX9^DNzY1
+!s100 hJAZ>EB8bm_e<^5IFaP9e1
+R12
+33
+Z62 !s110 1668890942
+!i10b 1
+!i113 0
+R14
+R15
+Adataflow
+R7
+R8
+DEx4 work 4 org2 0 22 kbW`>IOf=9G1AFX9^DNzY1
+!i122 19
+l32
+R22
+Vgb<e=7>XBQTJGCc<Rd:i:1
+!s100 nma>Pa=mMW`KzzjeW=1[d1
+R12
+33
+R62
+!i10b 1
+!i113 0
+R14
+R15
+Etb_and32
+Z63 w1668894082
+Z64 DPx3 std 3 env 0 22 QPZJVBPkV?55nUWhDzFik0
+Z65 DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R7
+R8
+!i122 31
+R9
+Z66 8/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/tb_and32.vhd
+Z67 F/home/blattner/cpre381_f22/CprE381_git/proj/generalComponents/tb_and32.vhd
+l0
+L8 1
+VjeGY>XOmFT?8l^=gGD^992
+!s100 l]i5IRYnFe9K:iT`32_nN0
+R12
+33
+Z68 !s110 1668894174
+!i10b 1
+!i113 0
+R14
+R15
+Amixed
+R64
+R65
+R7
+R8
+DEx4 work 8 tb_and32 0 22 jeGY>XOmFT?8l^=gGD^992
+!i122 31
+l29
+Z69 L12 47
+VHnifK:Z>8Hb`Wh8NQK8NA2
+!s100 Y;<3FXXdlPBm5?N]1k@US1
+R12
+33
+R68
+!i10b 1
+!i113 0
+R14
+R15
+Etb_cascade_or
+Z70 w1668891679
+R64
+R65
+R7
+R8
+!i122 20
+R9
+Z71 8/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd
+Z72 F/home/blattner/cpre381_f22/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd
+l0
+L9 1
+Vz44EZLdPdI9A[_8EaZzR00
+!s100 <RWL]h^<hhR`T6P551azJ1
+R12
+33
+Z73 !s110 1668891703
+!i10b 1
+!i113 0
+R14
+R15
+Amixed
+R64
+R65
+R7
+R8
+DEx4 work 13 tb_cascade_or 0 22 z44EZLdPdI9A[_8EaZzR00
+!i122 20
+l34
+L13 56
+V54fAz5MgmT>mHM?;TAD7c2
+!s100 MFoONH:FB696zicQP_2cL3
+R12
+33
+R73
+!i10b 1
+!i113 0
+R14
+R15
+Etb_controllogic
+Z74 w1667796104
+R64
+R65
+R7
+R8
+!i122 1
+R1
+Z75 8/home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+Z76 F/home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+l0
+L9 1
+VkB27kd;cmYgo[O<WO>[XG2
+!s100 bKVnC`4=H4blWWH?z3Wh70
+R12
+33
+R32
+!i10b 1
+!i113 0
+R14
+R15
+Amixed
+R64
+R65
+R7
+R8
+DEx4 work 15 tb_controllogic 0 22 kB27kd;cmYgo[O<m255
+K4
+z2
 !s8c locked
 !s11f vlog 2022.2 2022.04, Apr 25 2022
 !s11e vcom 2022.2 2022.04, Apr 25 2022
