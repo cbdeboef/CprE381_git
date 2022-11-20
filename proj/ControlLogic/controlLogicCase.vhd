@@ -22,7 +22,7 @@ entity controlLogicCase is
        o_regWrite   : out std_logic;
        o_regDst     : out std_logic);
 
-end controlLogic;
+end controlLogicCase;
 
 architecture dataflow of controlLogicCase is
 

@@ -23,10 +23,10 @@ architecture structural of AdderSubtractor is
              o_O          : out std_logic_vector(N-1 downto 0));
     end component;
 
-    component mux2t1_N is
+    component mux32_2to1 is
         port(i_S          : in std_logic;
-             i_D0         : in std_logic_vector(N-1 downto 0);
-             i_D1         : in std_logic_vector(N-1 downto 0);
+             i_A         : in std_logic_vector(N-1 downto 0);
+             i_B         : in std_logic_vector(N-1 downto 0);
              o_O          : out std_logic_vector(N-1 downto 0));
     end component;
 
@@ -40,17 +40,17 @@ architecture structural of AdderSubtractor is
 
 begin
   
-    g_onesComp : onesComp
+    g_instOne : onesComp
         port map(i_A  => i_B,
                  o_F  => s_BInv);
     
-    g_mux : mux2t1_N
+    g_instTwo : mux32_2to1
         port map(i_S  => i_nAddSub,
-                 i_D0 => i_B,
-                 i_D1 => s_BInv,
+                 i_A => i_B,
+                 i_B => s_BInv,
                  o_O  => s_muxOut);
     
-    g_FullAdder : FullAdder_N
+    g_instThree : FullAdder_N
         port map(i_A  => i_A,
                  i_B  => s_muxOut,
                  i_C  => i_nAddSub,

@@ -12,3 +12,746 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
+ls
+# Documents
+# modelsim.ini
+# proj
+# proj.zip
+# readMeProject1.txt
+# TeamSubmissionDocuments
+# Toolflow
+# transcript
+# vlog.opt
+# vsim.wlf
+# work
+cd proj
+# reading /usr/local/mentor/questasim/linux_x86_64/../modelsim.ini
+ls
+# bestFiles
+# CalebsFiles
+# completeMipsAlu
+# ControlLogic
+# DylansFiles
+# fetchLogic
+# generalComponents
+# main
+# mips
+# src
+# test
+# Modified modelsim.ini
+# Modified modelsim.ini
+vlib work
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:52:52 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AdderSubtractor
+# -- Compiling architecture structural of AdderSubtractor
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.cpre381custom.
+# ** Error (suppressible): /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd(5): (vcom-1195) Cannot find expanded name "work.cpre381Custom".
+# ** Error: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd(5): Unknown expanded name.
+# ** Note: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd(7): VHDL Compiler exiting
+# End time: 17:52:52 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:53:02 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALUControl
+# -- Compiling architecture dataflow of ALUControl
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(14): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(14): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(17): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(17): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(20): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(20): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(23): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(23): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(26): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(26): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(29): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(29): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(32): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(32): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(35): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(35): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(38): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(38): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(41): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(41): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(44): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(44): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(47): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(47): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(50): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(50): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(53): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(53): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(56): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(56): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(59): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(59): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(62): (vcom-1136) Unknown identifier "i_D".
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(62): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(63): VHDL Compiler exiting
+# End time: 17:53:02 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 34, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:54:00 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALUControl
+# -- Compiling architecture dataflow of ALUControl
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(14): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(17): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(20): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(23): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(26): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(29): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(32): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(35): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(38): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(41): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(44): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(47): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(50): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(53): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(56): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(59): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd(62): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# -- Compiling entity controlLogicCase
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd(25): Labels do not match: 'controlLogicCase' and 'controlLogic'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd(25): VHDL Compiler exiting
+# End time: 17:54:00 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 17
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:54:25 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALUControl
+# -- Compiling architecture dataflow of ALUControl
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# -- Compiling entity controlLogicCase
+# ** Error: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd(25): Labels do not match: 'controlLogicCase' and 'controlLogic'.
+# ** Note: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd(25): VHDL Compiler exiting
+# End time: 17:54:25 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:56:31 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/ControlLogic/ALUControl.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogic.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd /home/cbdeboef/CprE381_git/proj/ControlLogic/tb_controlLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALUControl
+# -- Compiling architecture dataflow of ALUControl
+# -- Compiling entity controlLogic
+# -- Compiling architecture dataflow of controlLogic
+# -- Compiling entity controlLogicCase
+# -- Compiling architecture dataflow of controlLogicCase
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd(102): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Warning: /home/cbdeboef/CprE381_git/proj/ControlLogic/controlLogicCase.vhd(168): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_controlLogic
+# -- Compiling architecture mixed of tb_controlLogic
+# End time: 17:56:31 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd {/home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd} /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:56:53 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and32
+# -- Compiling architecture structural of and32
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FullAdder
+# -- Compiling entity FullAdder_N
+# -- Compiling architecture structural of FullAdder_N
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity invg32
+# -- Compiling architecture structural of invg32
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# -- Compiling entity or32
+# -- Compiling architecture structural of or32
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling package cpre381Custom
+# -- Compiling package body cpre381Custom
+# -- Loading package cpre381Custom
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_and32
+# -- Compiling architecture mixed of tb_and32
+# -- Compiling entity tb_invg32
+# -- Compiling architecture mixed of tb_invg32
+# -- Compiling entity tb_or32
+# -- Compiling architecture mixed of tb_or32
+# -- Compiling entity tb_xor32
+# -- Compiling architecture mixed of tb_xor32
+# -- Compiling entity xor32
+# -- Compiling architecture structural of xor32
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:56:53 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd /home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:57:05 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/fetchLogic/fetchLogic.vhd /home/cbdeboef/CprE381_git/proj/fetchLogic/tb_fetchLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fetchLogic
+# -- Compiling architecture dataflow of fetchLogic
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_fetchLogic
+# -- Compiling architecture mixed of tb_fetchLogic
+# End time: 17:57:05 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:57:17 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AdderSubtractor
+# -- Compiling architecture structural of AdderSubtractor
+# -- Loading package NUMERIC_STD
+# -- Loading package cpre381Custom
+# -- Compiling entity cascade_or
+# -- Compiling architecture structural of cascade_or
+# -- Compiling entity completeMipsAlu
+# -- Compiling architecture structural of completeMipsAlu
+# -- Compiling entity mux5_2to1
+# -- Compiling architecture dataflow of mux5_2to1
+# -- Compiling entity mux32_2to1
+# -- Compiling architecture dataflow of mux32_2to1
+# -- Compiling entity mux32_8to1
+# -- Compiling architecture dataflow of mux32_8to1
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# -- Compiling entity shifter_2
+# -- Compiling architecture structural of shifter_2
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd(6): (vcom-1615) Existing entity 'shifter' at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(9) will be overwritten.
+# -- Compiling entity shifter
+# -- Compiling architecture dataflow of shifter
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_AdderSubtractor
+# -- Compiling architecture mixed of tb_AdderSubtractor
+# -- Compiling entity tb_cascade_or
+# -- Compiling architecture mixed of tb_cascade_or
+# -- Compiling entity tb_completeMipsAlu
+# -- Compiling architecture mixed of tb_completeMipsAlu
+# -- Compiling entity tb_mux32_2to1
+# -- Compiling architecture behavior of tb_mux32_2to1
+# -- Compiling entity tb_mux32_8to1
+# -- Compiling architecture behavior of tb_mux32_8to1
+# -- Compiling entity tb_replQb
+# -- Compiling architecture mixed of tb_replQb
+# -- Compiling entity tb_shifter
+# -- Compiling architecture mixed of tb_shifter
+# -- Compiling entity tb_shifter_2
+# -- Compiling architecture mixed of tb_shifter_2
+# End time: 17:57:17 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_completemipsalu -voptargs=+acc
+# vsim work.tb_completemipsalu -voptargs="+acc" 
+# Start time: 17:57:49 on Nov 19,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd(43): (vopt-3473) Component instance "g_onesComp : onesComp" is not bound.
+#         Region: /tb_completeMipsAlu/DUT0/G_Adder_Sub
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd(47): (vopt-3473) Component instance "g_mux : mux2t1_N" is not bound.
+#         Region: /tb_completeMipsAlu/DUT0/G_Adder_Sub
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd(220): (vopt-3473) Component instance "G_orifyer : org32" is not bound.
+#         Region: /tb_completeMipsAlu/DUT0
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_completemipsalu(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpre381custom(body)
+# Loading work.completemipsalu(structural)#1
+# Loading work.mux32_2to1(dataflow)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.mux5_2to1(dataflow)#1
+# Loading work.mux32_8to1(dataflow)#1
+# Loading work.addersubtractor(structural)#1
+# ** Warning: (vsim-3473) Component instance "g_onesComp : onesComp" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_Adder_Sub File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd
+# ** Warning: (vsim-3473) Component instance "g_mux : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_Adder_Sub File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd
+# Loading work.fulladder_n(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.cascade_or(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.shifter(dataflow)#1
+# ** Warning: (vsim-3473) Component instance "G_orifyer : org32" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0 File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd
+# Loading work.xor32(structural)#1
+# Loading work.invg32(structural)#1
+# Loading work.and32(structural)#1
+# Loading work.replqb(dataflow)#1
+add wave -position end  sim:/tb_completemipsalu/s_ALUControl
+add wave -position insertpoint  \
+sim:/tb_completemipsalu/s_ALUOut \
+sim:/tb_completemipsalu/s_overflow \
+sim:/tb_completemipsalu/s_zero
+add wave -position end  sim:/tb_completemipsalu/s_portOne
+add wave -position end  sim:/tb_completemipsalu/s_portTwo
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_moveBits
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_moveBits
+# Causality operation skipped due to absence of debug database file
+vcom -reportprogress 300 -work work /home/cbdeboef/CPRE381Alone/Lab1/onesComp/onesComp.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:04:51 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CPRE381Alone/Lab1/onesComp/onesComp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity onesComp
+# -- Compiling architecture structural of onesComp
+# End time: 18:04:51 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# ** Warning: (vsim-3473) Component instance "g_onesComp : onesComp" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_Adder_Sub File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd
+# ** Warning: (vsim-3473) Component instance "g_mux : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_Adder_Sub File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd
+# ** Warning: (vsim-3473) Component instance "G_orifyer : org32" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0 File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:07:07 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AdderSubtractor
+# -- Compiling architecture structural of AdderSubtractor
+# End time: 18:07:07 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+clear
+# [3;J[H[2J
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd(47): (vopt-3473) Component instance "g_instTwo : mux2t1_N" is not bound.
+#         Region: /tb_completeMipsAlu/DUT0/G_Adder_Sub
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd(220): (vopt-3473) Component instance "G_orifyer : org32" is not bound.
+#         Region: /tb_completeMipsAlu/DUT0
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_completemipsalu(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpre381custom(body)
+# Loading work.completemipsalu(structural)#1
+# Loading work.mux32_2to1(dataflow)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.mux5_2to1(dataflow)#1
+# Loading work.mux32_8to1(dataflow)#1
+# Loading work.addersubtractor(structural)#1
+# Loading work.onescomp(structural)#1
+# Loading work.invg(dataflow)#1
+# ** Warning: (vsim-3473) Component instance "g_instTwo : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_Adder_Sub File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd
+# Loading work.fulladder_n(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.cascade_or(structural)#1
+# Loading work.shifter(dataflow)#1
+# ** Warning: (vsim-3473) Component instance "G_orifyer : org32" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0 File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd
+# Loading work.xor32(structural)#1
+# Loading work.invg32(structural)#1
+# Loading work.and32(structural)#1
+# Loading work.replqb(dataflow)#1
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:08:07 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AdderSubtractor
+# -- Compiling architecture structural of AdderSubtractor
+# -- Loading package NUMERIC_STD
+# -- Loading package cpre381Custom
+# -- Compiling entity cascade_or
+# -- Compiling architecture structural of cascade_or
+# -- Compiling entity completeMipsAlu
+# -- Compiling architecture structural of completeMipsAlu
+# -- Compiling entity mux5_2to1
+# -- Compiling architecture dataflow of mux5_2to1
+# -- Compiling entity mux32_2to1
+# -- Compiling architecture dataflow of mux32_2to1
+# -- Compiling entity mux32_8to1
+# -- Compiling architecture dataflow of mux32_8to1
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(9): (vcom-1615) Existing entity 'shifter' at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd(6) will be overwritten.
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# -- Compiling entity shifter_2
+# -- Compiling architecture structural of shifter_2
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd(6): (vcom-1615) Existing entity 'shifter' at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(9) will be overwritten.
+# -- Compiling entity shifter
+# -- Compiling architecture dataflow of shifter
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_AdderSubtractor
+# -- Compiling architecture mixed of tb_AdderSubtractor
+# -- Compiling entity tb_cascade_or
+# -- Compiling architecture mixed of tb_cascade_or
+# -- Compiling entity tb_completeMipsAlu
+# -- Compiling architecture mixed of tb_completeMipsAlu
+# -- Compiling entity tb_mux32_2to1
+# -- Compiling architecture behavior of tb_mux32_2to1
+# -- Compiling entity tb_mux32_8to1
+# -- Compiling architecture behavior of tb_mux32_8to1
+# -- Compiling entity tb_replQb
+# -- Compiling architecture mixed of tb_replQb
+# -- Compiling entity tb_shifter
+# -- Compiling architecture mixed of tb_shifter
+# -- Compiling entity tb_shifter_2
+# -- Compiling architecture mixed of tb_shifter_2
+# End time: 18:08:07 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd {/home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd} /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:08:46 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and32
+# -- Compiling architecture structural of and32
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FullAdder
+# -- Compiling entity FullAdder_N
+# -- Compiling architecture structural of FullAdder_N
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity invg32
+# -- Compiling architecture structural of invg32
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# -- Compiling entity or32
+# -- Compiling architecture structural of or32
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling package cpre381Custom
+# -- Compiling package body cpre381Custom
+# -- Loading package cpre381Custom
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_and32
+# -- Compiling architecture mixed of tb_and32
+# -- Compiling entity tb_invg32
+# -- Compiling architecture mixed of tb_invg32
+# -- Compiling entity tb_or32
+# -- Compiling architecture mixed of tb_or32
+# -- Compiling entity tb_xor32
+# -- Compiling architecture mixed of tb_xor32
+# -- Compiling entity xor32
+# -- Compiling architecture structural of xor32
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 18:08:46 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/Adder.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/andg2.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/invg.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/Multiplier.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/org2.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/Reg.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/RegLd.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/xorg2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:09:08 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/Adder.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/andg2.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/invg.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/Multiplier.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/org2.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/Reg.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/RegLd.vhd /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd(23) will be overwritten.
+# -- Compiling entity andg2
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of andg2
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd(23) will be overwritten.
+# -- Compiling entity invg
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd(30) will be overwritten.
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd(23) will be overwritten.
+# -- Compiling entity org2
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of org2
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd(23) will be overwritten.
+# -- Compiling entity xorg2
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of xorg2
+# End time: 18:09:08 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+vcom -reportprogress 300 -work work /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder.vhd /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder_N.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:12:27 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder.vhd /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder.vhd(4): (vcom-1615) Existing entity 'FullAdder' at /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd(4) will be overwritten.
+# -- Compiling entity FullAdder
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder.vhd(13): (vcom-1615) Existing architecture 'FullAdder(structure)' at /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd(13) will be overwritten.
+# -- Compiling architecture structure of FullAdder
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder_N.vhd(4): (vcom-1615) Existing entity 'FullAdder_N' at /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd(4) will be overwritten.
+# -- Compiling entity FullAdder_N
+# ** Warning: /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder_N.vhd(14): (vcom-1615) Existing architecture 'FullAdder_N(structural)' at /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd(15) will be overwritten.
+# -- Compiling architecture structural of FullAdder_N
+# End time: 18:12:27 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd {/home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd} /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:12:56 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and32
+# -- Compiling architecture structural of and32
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/andg2.vhd(23) will be overwritten.
+# -- Compiling entity andg2
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/andg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of andg2
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd(4): (vcom-1615) Existing entity 'FullAdder' at /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder.vhd(4) will be overwritten.
+# -- Compiling entity FullAdder
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd(13): (vcom-1615) Existing architecture 'FullAdder(structure)' at /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder.vhd(13) will be overwritten.
+# -- Compiling architecture structure of FullAdder
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd(4): (vcom-1615) Existing entity 'FullAdder_N' at /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder_N.vhd(4) will be overwritten.
+# -- Compiling entity FullAdder_N
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd(15): (vcom-1615) Existing architecture 'FullAdder_N(structural)' at /home/cbdeboef/CPRE381Alone/Lab1/FullAdder/FullAdder_N.vhd(14) will be overwritten.
+# -- Compiling architecture structural of FullAdder_N
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/invg.vhd(23) will be overwritten.
+# -- Compiling entity invg
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/invg.vhd(30) will be overwritten.
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity invg32
+# -- Compiling architecture structural of invg32
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# -- Compiling entity or32
+# -- Compiling architecture structural of or32
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/org2.vhd(23) will be overwritten.
+# -- Compiling entity org2
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/org2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of org2
+# -- Compiling package cpre381Custom
+# -- Compiling package body cpre381Custom
+# -- Loading package cpre381Custom
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_and32
+# -- Compiling architecture mixed of tb_and32
+# -- Compiling entity tb_invg32
+# -- Compiling architecture mixed of tb_invg32
+# -- Compiling entity tb_or32
+# -- Compiling architecture mixed of tb_or32
+# -- Compiling entity tb_xor32
+# -- Compiling architecture mixed of tb_xor32
+# -- Compiling entity xor32
+# -- Compiling architecture structural of xor32
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/xorg2.vhd(23) will be overwritten.
+# -- Compiling entity xorg2
+# ** Warning: /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at /home/cbdeboef/CPRE381Alone/Lab1/BaseComponents/xorg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of xorg2
+# End time: 18:12:56 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 12
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd {/home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd} /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:12:59 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/generalComponents/and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/andg2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/FullAdder_N.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/mux2t1_dataflow.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/org2.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/package cpre381Custom is.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_and32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_invg32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_or32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/tb_xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xor32.vhd /home/cbdeboef/CprE381_git/proj/generalComponents/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and32
+# -- Compiling architecture structural of and32
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity FullAdder
+# -- Compiling architecture structure of FullAdder
+# -- Compiling entity FullAdder_N
+# -- Compiling architecture structural of FullAdder_N
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity invg32
+# -- Compiling architecture structural of invg32
+# -- Compiling entity mux2t1_dataflow
+# -- Compiling architecture dataflow of mux2t1_dataflow
+# -- Compiling entity or32
+# -- Compiling architecture structural of or32
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Compiling package cpre381Custom
+# -- Compiling package body cpre381Custom
+# -- Loading package cpre381Custom
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_and32
+# -- Compiling architecture mixed of tb_and32
+# -- Compiling entity tb_invg32
+# -- Compiling architecture mixed of tb_invg32
+# -- Compiling entity tb_or32
+# -- Compiling architecture mixed of tb_or32
+# -- Compiling entity tb_xor32
+# -- Compiling architecture mixed of tb_xor32
+# -- Compiling entity xor32
+# -- Compiling architecture structural of xor32
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 18:13:00 on Nov 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 18:13:10 on Nov 19,2022
+# vcom -reportprogress 300 -work work /home/cbdeboef/CprE381_git/proj/completeMipsAlu/AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux5_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter_2.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_AdderSubtractor.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_cascade_or.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_completeMipsAlu.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_2to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_mux32_8to1.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_replQb.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter.vhd /home/cbdeboef/CprE381_git/proj/completeMipsAlu/tb_shifter_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AdderSubtractor
+# -- Compiling architecture structural of AdderSubtractor
+# -- Loading package NUMERIC_STD
+# -- Loading package cpre381Custom
+# -- Compiling entity cascade_or
+# -- Compiling architecture structural of cascade_or
+# -- Compiling entity completeMipsAlu
+# -- Compiling architecture structural of completeMipsAlu
+# -- Compiling entity mux5_2to1
+# -- Compiling architecture dataflow of mux5_2to1
+# -- Compiling entity mux32_2to1
+# -- Compiling architecture dataflow of mux32_2to1
+# -- Compiling entity mux32_8to1
+# -- Compiling architecture dataflow of mux32_8to1
+# -- Compiling entity replQb
+# -- Compiling architecture dataflow of replQb
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(9): (vcom-1615) Existing entity 'shifter' at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd(6) will be overwritten.
+# -- Compiling entity shifter
+# -- Compiling architecture structural of shifter
+# -- Compiling entity shifter_2
+# -- Compiling architecture structural of shifter_2
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifterDataflow.vhd(6): (vcom-1615) Existing entity 'shifter' at /home/cbdeboef/CprE381_git/proj/completeMipsAlu/shifter.vhd(9) will be overwritten.
+# -- Compiling entity shifter
+# -- Compiling architecture dataflow of shifter
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_AdderSubtractor
+# -- Compiling architecture mixed of tb_AdderSubtractor
+# -- Compiling entity tb_cascade_or
+# -- Compiling architecture mixed of tb_cascade_or
+# -- Compiling entity tb_completeMipsAlu
+# -- Compiling architecture mixed of tb_completeMipsAlu
+# -- Compiling entity tb_mux32_2to1
+# -- Compiling architecture behavior of tb_mux32_2to1
+# -- Compiling entity tb_mux32_8to1
+# -- Compiling architecture behavior of tb_mux32_8to1
+# -- Compiling entity tb_replQb
+# -- Compiling architecture mixed of tb_replQb
+# -- Compiling entity tb_shifter
+# -- Compiling architecture mixed of tb_shifter
+# -- Compiling entity tb_shifter_2
+# -- Compiling architecture mixed of tb_shifter_2
+# End time: 18:13:10 on Nov 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Warning: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd(220): (vopt-3473) Component instance "G_orifyer : org32" is not bound.
+#         Region: /tb_completeMipsAlu/DUT0
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_completemipsalu(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpre381custom(body)
+# Loading work.completemipsalu(structural)#1
+# Loading work.mux32_2to1(dataflow)#1
+# Loading work.mux2t1_dataflow(dataflow)#1
+# Loading work.mux5_2to1(dataflow)#1
+# Loading work.mux32_8to1(dataflow)#1
+# Loading work.addersubtractor(structural)#1
+# Loading work.onescomp(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.fulladder_n(structural)#1
+# Loading work.fulladder(structure)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.cascade_or(structural)#1
+# Loading work.shifter(dataflow)#1
+# ** Warning: (vsim-3473) Component instance "G_orifyer : org32" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0 File: /home/cbdeboef/CprE381_git/proj/completeMipsAlu/completeMipsAlu.vhd
+# Loading work.xor32(structural)#1
+# Loading work.invg32(structural)#1
+# Loading work.and32(structural)#1
+# Loading work.replqb(dataflow)#1
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_moveBits
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_completemipsalu/DUT0/G_moveBits
