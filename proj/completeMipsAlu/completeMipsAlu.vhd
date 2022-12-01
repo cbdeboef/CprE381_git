@@ -17,7 +17,7 @@ end completeMipsAlu;
 
 architecture structural of completeMipsAlu is
 
-    component org32 is
+    component or32 is
         port(i_A          : in std_logic_vector(31 downto 0);
              i_B          : in std_logic_vector(31 downto 0);
              o_F          : out std_logic_vector(31 downto 0));     
@@ -146,7 +146,7 @@ begin
     G_cMuxJal: mux32_2to1
     port map(i_S        => i_ALUControl(12),
              i_A        => i_portTwo,
-             i_B        => X"00000002",
+             i_B        => X"00000008",
              o_O        => s_cMuxJal);             
 
     G_cBne: mux2t1_dataflow
@@ -217,7 +217,7 @@ begin
              o_O            => s_shifterOut);
 
     -- Basic logic gates
-    G_orifyer: org32
+    G_orifyer: or32
     port map(i_A          => i_portOne,
              i_B          => i_portTwo,
              o_F          => s_cOut(1));  

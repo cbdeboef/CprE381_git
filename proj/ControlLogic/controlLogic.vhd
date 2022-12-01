@@ -70,7 +70,7 @@ begin
       "100111001000000" when opcode = "001101" else
 
       -- slti
-      "101000000000000" when opcode = "001010" else
+      "101000000001000" when opcode = "001010" else
 
       -- sw
       "100010010000000" when opcode = "101011" else
@@ -106,7 +106,7 @@ begin
       "000111001100000" when funcCode = "000111" else
 
       -- slt
-      "001000001100000" when funcCode = "001000" else
+      "001000001101000" when funcCode = "001000" else
 
       -- sll
       "001101001100000" when funcCode = "001001" else
